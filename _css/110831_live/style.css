@@ -1,0 +1,459 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'ConduitITCRegular';
+    src: url('../_fonts/conduit_itc-webfont.eot');
+    src: url('../_fonts/conduit_itc-webfont.eot?iefix') format('eot'),
+         url('../_fonts/conduit_itc-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Swis721LtCnBTLight';
+    src: url('../_fonts/swiss_721_light_condensed_bt-webfont.eot');
+    src: url('../_fonts/swiss_721_light_condensed_bt-webfont.eot?iefix') format('eot'),
+         url('../_fonts/swiss_721_light_condensed_bt-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Swiss921BTRegular';
+    src: url('../_fonts/swiss921bt-webfont-webfont.eot');
+    src: url('../_fonts/swiss921bt-webfont-webfont.eot?iefix') format('eot'),
+         url('../_fonts/swiss921bt-webfont-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AnimeAce20BBRegular';
+    src: url('../_fonts/animeace2_reg-webfont.eot');
+    src: url('../_fonts/animeace2_reg-webfont.eot?iefix') format('eot'),
+         url('../_fonts/animeace2_reg-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BoBsFrAnTiCTrueType';
+    src: url('../_fonts/bobsfrantic-webfont.eot');
+    src: url('../_fonts/bobsfrantic-webfont.eot?#iefix') format('eot'),
+         url('../_fonts/bobsfrantic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ConduitITCExtraBoldRegular';
+    src: url('../_fonts/conduit_itc_extrabold-webfont.eot');
+    src: url('../_fonts/conduit_itc_extrabold-webfont.eot?#iefix') format('eot'),
+         url('../_fonts/conduit_itc_extrabold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body { background:#f1f1f1; height:100%; }
+body.totem {background:url(../_img/bg_faixas.png) no-repeat top center #f1f1f1;}
+.loading{text-align:center; position:relative;}
+#fundo_light{width:100%; height:100%; position:fixed; z-index:20000; display:none; left:0; top:0}
+#parallax{position:fixed; overflow:hidden; width:100%; height:2000px; z-index:-2;}
+#bg_faixas{overflow:hidden; width:49%; height:100%; z-index:-1; position:absolute; padding-left:51%;}
+#bg_faixas .faixas{background:url(../_img/bg_faixas.png) no-repeat left top; height:409px; width:1881px; margin:39px 0 0 -976px;}
+#bg_faixas .totem {margin:0 0 0 -976px}
+.left{float:left; margin-left:0 !important;}
+#header_frame{background-color:#fff; width:100%; height:39px;}
+	#header_frame .content{width:976px; margin:0 auto;}
+		#header_frame .redes_sociais{width:370px; height:19px; float:left; display:inline; margin-top:14px;}
+			.redes_sociais a{margin-right:28px;}
+		#header_frame ul.nav-header{width:323px; height:14px; float:right; margin-top:14px;}
+			ul.nav-header li{background:url(../_img/nav-div.jpg) no-repeat right top; width:144px; text-transform:uppercase; font:13px "ConduitITCRegular", Helvetica, sans-serif; color:#b2b2b2; cursor:pointer; float:left;}
+			ul.nav-header li a{text-transform:uppercase; font:13px "ConduitITCRegular", Helvetica, sans-serif; color:#b2b2b2; text-decoration:none;}
+				ul.nav-header li.sala{background:url(../_img/nav-div-imprensa.jpg) no-repeat right top; text-align:center;}
+				ul.nav-header li.contato{text-align:center;}
+				ul.nav-header li.mapa_nav{background:none; text-align:right;}
+				ul.nav-sub{background:#fff; width:142px; height:84px; padding-top:14px; border-right:#c8c7c7 1px solid; border-bottom:#c8c7c7 1px solid; margin-top:-3px; display:block; z-index:10; position:relative;}
+				ul.nav-sub li{background: none; height:28px; text-align:center;}
+				ul.nav-sub li:hover a{color:#0a4595}
+				.navbar ul li ul.navbar-sub li.desativado{color:#D75B60;}
+#header{width:976px; margin:0 auto;}
+	#header .logo_jogos{width:329px; height:110px; float:left; display:inline; margin-top:41px;}
+	#header .contador{width:210px; text-align:center; float:right; margin:29px 60px 0 0; color:#a2a2a2; font:16px 'Swis721LtCnBTLight', Helvetica, sans-serif; }
+		.contador h3{margin-bottom:4px;}
+		.contador .time{width:136px; height:46px; float:left; display:inline; text-align:center; margin:0 3px; background:#000; border:1px solid #a4a4a4;}
+			.time .number{background:url(../_img/bg_time.png) no-repeat left top; width:30px; height:46px; float:left; display:inline; color:#fff; font:30px/45px 'Swiss921BTRegular', Helvetica, sans-serif; margin:0 2px;}
+		.contador .sentence{float:left; display:inline; font:16px 'Swis721LtCnBTLight', Helvetica, sans-serif; margin-top:15px;}
+	#header .logo_mogi{float:right; display:inline; margin:22px 66px 0 0;}
+	
+.content{width:985px; height:auto; margin:0 auto; padding:0 0 0 9px;}
+	.navbar{width:985px; height:49px; float:left; display:inline; margin-top:20px; text-transform:uppercase;}
+	.navbar ul{width:980px; height:43px;}
+	.navbar ul li{width:auto; height:auto; float:left; display:inline;}
+	.navbar ul li#ativo a{color:#0a4595;}
+	.navbar ul li#ativo ul li a{color:#fff !important;}
+	.navbar ul li#ativo ul li a:hover{color:#0a4595 !important;}
+	.navbar ul li.desativado{background:#0a4595; color:#3981e1; padding:14px 21px 14px 22px; font:14px "ConduitITCRegular", Helvetica, sans-serif;}
+	.navbar ul li a{background:#0a4595; color:#fff; font:14px "ConduitITCRegular", Helvetica, sans-serif; padding:14px 21px 14px 22px; text-decoration:none; display:block;}
+	.navbar ul li:last-child a{padding:14px 22px ;}
+	.navbar ul li a:hover{background:#e3d200; color:#0a4595}
+	.navbar ul li ul.navbar-sub{position:absolute; z-index:5; margin-left:9px; width:auto;}
+	.navbar ul li ul.navbar-sub li{background:#bf0f15; float:left; display:inline;}
+	.navbar ul li ul.navbar-sub li a{background:#bf0f15; float:left; display:inline; padding:14px 10px 14px 11px;}
+	.navbar ul li ul.navbar-sub li a:hover{background:#e3d200; color:#0a4595;}
+	
+	.sombra{background: url(../_img/1x1.png) repeat top left; width:976px; height:355px; position:absolute; z-index:-1; margin:6px 0 0 9px;}
+					
+#footer{background:#d7d7d7; width:976px; height:278px; float:left; display:inline; margin-top:100px;}
+#footer .bg{background:#d7d7d7; width:100%; height:278px; position:absolute; z-index:-1; left:0}
+#footer .bg-realizacao{background:#e5e4e4; width:100%; height:103px; position:absolute; left:0; z-index:-1;}
+	#footer .realizacao{background:#e5e4e4; width:995px; height:83px; font:bold 18px "ConduitITCRegular", Helvetica, sans-serif; color:#898989;padding-top:20px; text-transform:uppercase;}
+	#footer .realizacao span{float:left; display:inline; padding-top:30px;}
+	#footer .realizacao img{margin:0 0 0 35px;}
+	#footer .nav-footer{width:995px; height:173px; padding-top:43px;}
+		.nav-footer li{float:left; display:block; color:#484848; font:11px "ConduitITCRegular", Helvetica, sans-serif; font-weight:bold; margin:0 17px;}
+		.nav-footer li:first-child{margin:0 17px 0 0;}
+		.nav-footer li:last-child{margin:0 0px 0 20px;}
+		.nav-footer li.desativado{color:#9a9999;text-transform:uppercase;}
+		.nav-footer li a{color:#484848; font:11px "ConduitITCRegular", Helvetica, sans-serif; text-decoration:none; font-weight:bold; padding:2px;text-transform:uppercase;}
+		.nav-footer li a:hover, .nav-footer li#ativo a{background:#484848; color:#fff; padding:2px;}
+		.nav-footer .nav-footer-sub{margin-top:14px;}
+		.nav-footer .nav-footer-sub li{float:none; margin:0;text-transform:none;}
+		.nav-footer .nav-footer-sub li.desativado{color:#9a9999; font-weight:normal;padding:2px;text-transform:none;}
+		.nav-footer .nav-footer-sub li a{color:#616161; font-weight:normal; padding:2px;text-transform:none;}
+		.nav-footer li#ativo .nav-footer-sub a{ background:none; padding:2px; color:#616161; text-decoration:none;}
+		.nav-footer .nav-footer-sub li a:hover, .nav-footer li#ativo .nav-footer-sub a:hover{ background:none; padding:2px; color:#616161; text-decoration:underline;}
+	#footer .copyright{color:#898989; font:15px "ConduitITCRegular", Helvetica, sans-serif; float:left; display:inline; margin:5px 0 0;}
+	#footer .redes-sociais{float:right;}
+		.redes-sociais a{margin:0 0 0 30px; float:left; display:block;}
+		
+
+#content h1.title{background:url(../_img/bg_tit.jpg) no-repeat left top; width:943px; height:58px; color:#fff; font:40px "ConduitITCRegular", Helvetica, sans-serif; float:left; display:block; padding:12px 0 0 33px; text-transform:uppercase; margin:13px 0 0;}
+#content h1.red{background-image:url(../_img/bg_tit_verm.jpg);}
+#content h1.yellow{background-image:url(../_img/bg_tit_ama.jpg);}
+
+#content .page{background:#0a4595; width:932px; height:676px; float:left; display:inline; margin-top:13px; padding:37px 0 0 44px;}
+	.page p{font:14px "ConduitITCRegular", Helvetica, sans-serif; color:#fff;}
+	.seta_ico{background:url(../_img/seta_ico.png) no-repeat left top; width:57px; height:136px; position:relative; z-index:5; float:left;}
+/* Home */
+	
+	/* Votacao */
+	.votation{width:976px; height:324px; float:left; display:inline; margin-top:14px; overflow:hidden;}
+.votation h3{width:976px; height:34px; background-color:#c9252b; text-align:center; color:#fff; font:24px "ConduitITCRegular", Helvetica, sans-serif; padding-top:12px;}
+.votation ul{width:976px; height:309px; overflow:hidden; position:absolute;}
+.votation ul li{display: block; position: absolute; top: 0; left: 0; z-index: 1;}
+.votation ul li.first {z-index: 5;}
+.votation ul li.show {display: block; z-index: 5;}
+	ul li.step1{background: url(../_img/bg_votation1.jpg) no-repeat left top; width:976px; height:309px;}
+		li.step1 p.info{padding:23px 0 0; font:14px 'AnimeAce20BBRegular', Helvetica, sans-serif; color:#fff; text-align:center;}
+		li.step1 .mascote_op1{width:315px; height:234px; float:left; display:block; margin:12px 0 0 96px;}
+		li.step1 .mascote_op2{width:322px; height:234px; float:left; display:block; margin:12px 0 0 127px;}
+		.escolha{background:url(../_img/btn_escolher.png) no-repeat left top; width:133px; height:64px; border:none; cursor:pointer; position:absolute; margin:100px 0 0 -75px;}
+		.escolha:hover{background-position:bottom;}
+		
+	ul li.step2{background: url(../_img/bg_votation2.jpg) no-repeat left top; width:976px; height:309px;}
+		li.step2 .seta{background:url(../_img/vot_seta.png) no-repeat left top; width:74px; height:23px; float:left; display:inline; margin:160px 0 0;}
+		li.step2 p.info1{font:16px 'AnimeAce20BBRegular', Helvetica, sans-serif; text-transform:uppercase; margin:140px 0 0 32px; float:left; display:inline; text-align:center;}
+		li.step2 form{width:166px; height:120px; float:left; display:inline; margin:108px 0 0 34px;}
+		li.step2 form a { display:inline-block; text-decoration:none; }
+		li.step2 span{font:30px 'BoBsFrAnTiCTrueType', Helvetica, sans-serif; color:#000; text-transform:capitalize;}
+		.votar{background:url(../_img/btn_votar.png) no-repeat left top; width:133px; height:64px; border:none; cursor:pointer; float:left; display:inline; margin:135px 0 0 22px;}
+		.votar:hover{background-position:bottom;}
+		
+	ul li.step3{background: url(../_img/bg_votation3.jpg) no-repeat left top; width:976px; height:309px;}
+		li.step3 .masc_perfil{width:168px; height:179px; float:left; display:inline; margin:66px 0 0 153px;}
+		li.step3 .mensagem{background:url(../_img/masc_balao.png) no-repeat left top; width:409px; height:82px; float:left; display:inline; margin-top:62px; font:14px 'AnimeAce20BBRegular', Helvetica, sans-serif; color:#000; padding:32px 0 0 86px;}
+		li.step3 .botoes{width:575px; height:52px; float:left; display:inline; margin:18px 0 0 65px;}
+			li.step3 .botoes img:first-child { margin-right:20px; }
+		
+	#result_vot{background:url(../_img/fund_lightbox_vot.jpg) no-repeat left top #e3d200; width:563px; height:540px; left:50%; margin-left:-281px; top:50%; margin-top:-270px; position:fixed; z-index:30000;}
+	#result_vot #btn_fechar{float:right;padding:5px;}
+	#result_vot h1{margin:13px 0 20px 86px; color:#0a4595; font:36px "ConduitITCRegular", Helvetica, sans-serif;}
+	#result_vot .item{width:449px; height:59px; border-bottom:1px dotted #948900; margin:10px auto;}
+	#result_vot .item:last-child{margin-bottom:50px; border-bottom:none;}
+	#result_vot .item .info{width:172px; margin:20px 0 0 17px; float:left; display:inline; font:19px "ConduitITCRegular", Helvetica, sans-serif; color:#948900;}
+	#result_vot .item img {float:left}
+	#result_vot .item span{color:#c9252b; float:right;display:inline;}
+	#result_vot .item .fundo_result{background:url(../_img/bg_result_vot.jpg) repeat-x left top; width:134px; height:21px; float:left; display:inline;margin:17px 0 0 25px;}
+	#result_vot .item .porcent_result{background:url(../_img/bg_porcent_vot.jpg) repeat-x left top; width:10%; height:21px; float:left; display:inline;}
+	#result_vot .item .porcent_result_num{font:24px "ConduitITCRegular", Helvetica, sans-serif; color:#948900; float:left; display:inline; margin:14px 0 0 12px;}
+	
+	/* Meio da Home */
+	.o_evento, .galeria_multimidia{background:url(../_img/fund_tit_evento.png) no-repeat 0 43px; width:267px; height:324px; float:left; display:inline;}
+	.o_evento img, .galeria_multimidia img{margin:-20px 0 0 7px;}
+	.o_evento .txt a, .a_cidade .txt a{font:14px "ConduitITCRegular", Helvetica, sans-serif; color:#7d7d7d; margin:20px 0 0 7px; float:left; display:inline; text-decoration:none;}
+	.txt a:hover{text-decoration:underline;}
+	h1.titulo_home{font:26px "ConduitITCRegular", Helvetica, sans-serif; color:#fff; margin:56px 0 0 57px; text-transform:uppercase;}
+	
+	.a_cidade{background:url(../_img/fund_tit_cidade.png) no-repeat 38px 43px; width:336px; height:324px; float:left; display:inline; margin:0 0 0 55px;}
+	.a_cidade .seta_ico{margin-left:38px;}
+	.a_cidade h1.titulo_home{margin-left:100px;}
+	.carousel_home{width:336px; height:158px; float:left; display:inline; margin-top:-20px;}
+	.carousel_modalidade{width:976px; float:left; display:inline;}
+	.prev, .next{background-image:url(../_img/setas_carousel.png); background-repeat:no-repeat; height:56px; display:inline; margin-top:48px; cursor:pointer;}
+	.prev{background-position:left; width:44px; float:left;}
+	.next{background-position:right; width:41px; float:right;}
+	.carousel{overflow:hidden; float:left; display:inline;}
+	.a_cidade .txt{width:243px; margin-left:45px;}
+	
+	.galeria_multimidia{background-image:url(../_img/fund_tit_galeria.png); float:right;}
+	.galeria_multimidia h1.titulo_home{font-size:24px}
+	.info_galeria{width:250px; height:49px; position:relative; z-index:2; margin:-50px 0 0 8px; float:left; display:inline; }
+	.info_galeria .bg{background:#000; width:100%; height:100%; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; filter: alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity: 0.5; position:absolute;}
+	.info_galeria .txt{height:38px; font:14px Arial, Helvetica, sans-serif; color:#fff; position:absolute; z-index:3; padding:12px 9px 0;}
+	.galeria_multimidia .ver_galeria{background:url(../_img/btn_ver_galeria.png) no-repeat left top; width:249px; height:55px; float:left; display:inline; text-transform:none; text-align:center; margin:3px 0 0 8px;}
+	.galeria_multimidia .ativo{background-position:bottom}
+	.galeria_multimidia .ativo a{color:#d2c202;}
+	.galeria_multimidia img {float:left;}
+	.ver_galeria a{float:left; display:inline; color:#fff; font:22px "ConduitITCRegular", Helvetica, sans-serif; text-decoration:none; width:100%; height:41px; padding-top:14px;}
+	
+	.modalidades_home, .noticias_home, .escolha_mogi{width:258px; height:500px; float:left; display:inline; margin-top:68px;}
+	.modalidades_home h1, .noticias_home h1, .escolha_mogi h1{font:22px "ConduitITCRegular", Helvetica, sans-serif; width:214px; height:60px; float:left; display:inline; padding:36px 0 0 44px; text-transform:uppercase;}
+	.modalidades_home h1{background-image:url(../_img/ti_homet_modalidades.png); color:#0a4595;}
+	.modalidades_home .txt{font:14px "ConduitITCRegular", Helvetica, sans-serif; color:#7d7d7d; margin:8px 0 0 11px; text-align:justify;}
+	.mod_all{margin:43px 0 0 14px;}
+	.mod_all a{margin:0 0 19px 3px; float:left; display:inline;}
+	.noticias_home{margin-left:101px;}
+	.noticias_home h1{background-image:url(../_img/ti_home_noticias.png); color:#c9252b; font-size:26px; position:relative; z-index:2}
+	.noticias_home .noticia{width:226px; height:96px; border-bottom:1px dotted #C9252B; float:left; display:inline; margin-left:3px; padding:0 15px;}
+	.noticias_home .primeiro{margin-top:-20px;}
+	.noticias_home .ultimo{border-bottom:none;}
+	.noticias_home img{width:71px; height:71px; float:left; display:inline; margin-top:11px; padding:2px;}
+	.noticias_home h3{width:139px; height: 65px; overflow: hidden; padding:18px 2px 0 10px; float:left; display:inline;}
+	.noticias_home h3 a{font:15px "ConduitITCRegular", Helvetica, sans-serif; color:#c9252b; font-weight:bold; text-decoration:none; float:left; width:100%; height:100%;}
+	.noticias_home .noticia:hover{background-color:#c9252b;}
+	.noticias_home .noticia:hover h3 a{color:#fff;}
+	.noticias_home .noticia:hover img{border:2px solid #fff; padding:0}
+	.noticias_home .ver_todas_noticias{float:left; margin:10px 0 0; text-align:center; width:100%;}
+	.noticias_home .ver_todas_noticias a{text-transform:uppercase; color:#c9252b; font:26px "ConduitITCRegular", Helvetica, sans-serif; text-decoration:none;}
+	.noticias_home .ver_todas_noticias a:hover{background:#c9252b; color:#fff;}
+	
+	.escolha_mogi{float:right;}
+	.escolha_mogi h1{background-image:url(../_img/tit_home_palavra.png); color:#e3d200; font-size:26px; position:relative; z-index:2}
+	.escolha_mogi h1.palavra{margin-top:18px;}
+	.escolha_mogi p, .escolha_mogi img{margin:-15px 0 0 8px; float:left; display:inline;}
+	.escolha_mogi a{font:14px "ConduitITCRegular", Helvetica, sans-serif; color:#7d7d7d; text-decoration:none;}
+	.escolha_mogi a:hover{text-decoration:underline;}
+	
+/* Mapa Interativo */
+	.mapa{width:634px; height:639px; float:left; display:inline;}
+	.info_mapa{width:258px; float:left; display:inline; margin-left:14px;}
+	.pins{width:258px; font:bold 14px "ConduitITCRegular", Helvetica, sans-serif; text-transform:uppercase; margin-top:20px;}
+	.pins li{background-position:left bottom; background-repeat:no-repeat; padding:16px 0 0 51px; height:31px; cursor:pointer; color:#3b8df0; margin-bottom:4px;}
+	.pins li:hover, .pins li.ativo{background-position:left top; color:#fff;}
+	.pin_terminais{background-image:url(../_img/maps/terminais_de_onibus.png);}
+	.pin_alojamentos{background-image:url(../_img/maps/alojamento.png);}
+	.pin_congresso{background-image:url(../_img/maps/congresso.png);}
+	.pin_locais{background-image:url(../_img/maps/locais.png);}
+	.pin_atletismo{background-image:url(../_img/maps/atletismo.png);}
+	.pin_hoteis{background-image:url(../_img/maps/hoteis.png);}
+	.pin_pontos_turisticos{background-image:url(../_img/maps/pontos_turisticos.png);}
+	.pin_parques{background-image:url(../_img/maps/parques.png);}
+	.pin_tocha{background-image:url(../_img/maps/tocha.png);}
+	.pin_trem{background-image:url(../_img/maps/trem.png);}
+	.pin_hospitais{background-image:url(../_img/maps/hospitais.png);}
+	.pin_pronto_atendimento{background-image:url(../_img/maps/atendimento.png);}
+
+.locais{background:url(../_img/maps/bar_select.png) no-repeat left top; width:186px; height:18px; position:absolute; z-index:4; margin-top:55px; margin-left:47px; *margin-top:35px;}
+	.locais select{width:186px; height:18px; background: none repeat scroll 0% 0% transparent; border:none; opacity: 0; position:absolute; z-index:2}
+	.locais select option{background:#0f68ca; color:#fff; border:none;}
+	.locais span{width:182px; height:14px; color:#fff; border:none; position:absolute; z-index:1; font:13px "ConduitITCRegular", Helvetica, sans-serif; padding:2px;}
+
+/* Modalidades */
+.collum_left{float:left; display:inline; width:50%}
+.collum_right{float:right; display:inline; width:50%}
+#content_mod{margin-top:28px; float:left; width:100%; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#919191; text-align:justify;}
+	#content_mod img{float:left; display:inline;}
+	.carousel_modalidade{margin-top:30px;}
+	.carousel_modalidade .c_modalidade{margin-left:36px;}
+	.carousel_modalidade .c_modalidade li{width:74px}
+	.carousel_modalidade .prev, .carousel_modalidade .next{margin:0;}
+	p.voltar_mod{float:right; margin:14px 30px 0 0;}
+	.p_modalidade p a{ color: #0A4595; font-family: "ConduitITCRegular",Helvetica,sans-serif; font-size: 16px; text-decoration: underline; padding: 4px;}
+	.p_modalidade p a:hover{color:#fff; background:#0a4595; text-decoration:none;}
+	#content_mod .info{width:416px; float:right; font-size:15px; text-align:justify}
+	#content_mod .info h2{font-size:48px; color:#0a4595; text-transform:uppercase;}
+	#content_mod .info h3{font-size:18px; font-weight:bold;}
+	#content_mod h2.tit_mapa{background:url(../_img/modalidades/fund_tit_mapa_mod.png) no-repeat left top; width:330px; height:57px; float:left; display:inline; text-transform:uppercase; font-size:26px; color:#0a4595; padding:39px 0 0 44px; margin-top:34px; position:relative; z-index:5}
+	.tit_maps{font-size:15px; float:left; display:inline; font-weight:bold;}
+	.info_maps{font-size:12px;}
+	
+	#content_mod #mapa{ width:469px; height:286px; float:left; margin-top:-15px;  }
+	#content_mod .base{width:319px; margin-top:17px;}
+		.base p{font-size:14px; width:274px;}
+	#content_mod .icon_big{margin-top:85px; width:319px; height:285px; background:center center no-repeat; background-image:url(../_img/modalidades/ico_gnd1.png);}
+	#content_mod .icon_big img{float:none !important;}
+	#content_mod .all_modalities{width:605px; float:left;}
+	#content_mod .all_modalities li{width:106px; height:138px; float:left; display:inline; margin-right:15px;}
+	#content_mod .all_modalities li span{font:16px "ConduitITCRegular", Helvetica, sans-serif; color:#0a4595; text-decoration:none;}
+	#content_mod .all_modalities li a{text-decoration:none; text-align:center; float:left;}
+	#content_mod .collum_right{width:647px;}
+	
+/* Noticias */
+#content_not{margin-top:35px; float:left; width:100%; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#828282; text-align:justify;}
+	#content_not .base{width:592px;}
+	#content_not .not_destaq{width:100%; height:304px; border-bottom:1px dotted #828282;}
+	#content_not a{text-decoration:none; float:left;}
+	#content_not a:hover{text-decoration:underline;}
+		.not_destaq .info{width:308px; float:right;}
+		.not_destaq .info h2{margin-top:5px;}
+		.not_destaq .info h2 a{font-family:"ConduitITCRegular", Helvetica, sans-serif; font-size:25px; color:#c9252b;}
+	#content_not p{line-height:18px;}
+	#content_not .data{width:100%; float:left;}
+	#content_not .data a{font-size:14px; color:#656565;}
+	#content_not .categoria a{font-size:16px; color:#656565;}
+	#content_not .txt{width:308px; margin-top:68px; float:left;}
+	#content_not .txt a{font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#828282;}
+	#content_not .itens{font-family:"ConduitITCRegular"; width:590px; padding-bottom:28px; border-bottom:1px dotted #828282; float:left; margin-top:34px;}
+	#content_not .todas .itens{width:790px;}
+	#content_not .itens h2{font-family:"ConduitITCRegular"; font-size:24px; color:#c9252b; font-weight:bold;}
+	#content_not p.categoriaNot a {font-family: "ConduitITCRegular",Helvetica,sans-serif; font-size: 24px; color: #656565; float: none;}
+	#content_not .contentNoticia p {padding-bottom: 15px;}
+		.itens .data_dmenor{width:72px; float:left;}
+		.itens .data_dmenor a{width:72px; height:100%; font-size:11px; color:#656565; float:left;}
+		.itens .categoria_dmenor a{font-size:18px; color:#656565;}
+		.itens .txt_dmenor a{font-family:"ConduitITCRegular"; font-size:16px; color:#c9252b; margin:0 10px 0 71px;}
+	#content_not .item{width:292px; float:left; display:inline;}
+	#content_not .item img{margin:0 7px 0 0}
+	#content_not .item p{width:165px; float:left; line-height:25px;}
+	#content_not .item .data a{font-size:14px;}
+	#content_not .item .categoria a{font-size:18px;}
+	#content_not .item h3 a{font-family:"ConduitITCRegular"; font-size:14px; color:#c9252b; text-align:left; width:167px; float:left;}
+	#content_not .right{float:right;}
+	
+	#content_not .noticia_interna{width:594px; font-family:"ConduitITCRegular", Helvetica, sans-serif;}
+		.noticia_interna p.data, .noticia_interna p.categoria{line-height:28px !important}
+		.noticia_interna p{font-size:15px; line-height:normal !important}
+		.noticia_interna h3{color:#656565; font-size:24px;}
+		.noticia_interna p.data{color:#656565; font-size:16px;}
+		.noticia_interna p.categoria{color:#656565; font-size:24px;}
+		.noticia_interna h2{color:#c9252b; font-size:32px; font-family:"ConduitITCRegular"; padding-bottom:20px; margin-bottom:28px; border-bottom:1px dotted #828282;}
+		.noticia_interna img.margem{margin:20px;}
+		.noticia_interna img.left{float:left; margin-left:0;}
+		.noticia_interna img.right{float:right; margin-right:0;}
+		.noticia_interna .redes_sociais{width:594px; height:39px; border-bottom:1px dotted #828282; border-top:1px dotted #828282; padding-left:3px; margin:33px 0 0; float:left;}
+		.btn{width:228px; height:29px; margin:10px auto 0;}
+		.noticia_interna .twitter{width:110px; height:20px; float:left; border-right:1px dotted #828282;}
+		.noticia_interna .facebook{width:100px; height:21px; float:right;}
+	
+	.noticia_interna_right{width:300px; font-family:"ConduitITCRegular", Helvetica, sans-serif; margin-right:10px; color:#656565;}
+	.noticia_interna_right h2{background:url(../_img/fund_not_title.png) no-repeat left top; width:256px; height:62px; padding:34px 0 0 44px; color:#c9252b; font-size:26px; text-transform:uppercase; font-weight:normal;}
+	.noticia_interna_right .item{width:292px; height:87px; border-bottom:1px dotted #828282; float:left; display:inline; padding-top:10px;}
+	.noticia_interna_right .item:hover{background:#c9252b;}
+	.noticia_interna_right .item:hover a{color:#fff !important;}
+	.noticia_interna_right .item a:hover{text-decoration:none !important;}
+	.noticia_interna_right .item .hora{width:45px !important;}
+	.noticia_interna_right .item .hora a{font-size:16px; float:left; display:inline; margin-left:10px; color:#656565;}
+	.noticia_interna_right .item .data_menor{width:80px !important;}
+	.noticia_interna_right .item .data_menor a{font-size:16px !important;}
+	.noticia_interna_right .item .desc_info{margin-left: 38px;}
+	.noticia_interna_right .item .categoria a{font-size:14px; margin-left:12px;}
+	.noticia_interna_right .item .categoria_menor a{font-size:12px;}
+	.noticia_interna_right .item h3 a{font-size:16px; font-family:"ConduitITCRegular"; float:left; margin:10px 15px 0 57px; color:#c9252b; text-align:left;}
+	.noticia_interna_right .tit_data{background:#c9252b; width:269px; height:27px; float:left; display:inline; padding:15px 0 0 23px; color:#fff; font-family:"ConduitITCRegular"; font-size:20px; font-weight:bold; font-style:italic; margin:38px 0 10px 0;}
+	.noticia_interna_right .primeiro{margin-top:0px;}
+	
+	.mais_noticias{background:url(../_img/seta_ico_right.png) no-repeat right top; height:30px; color:#c9252b; font-size:22px; padding-top:3px; margin:40px 0 0; float:right;}
+	.mais_noticias a{padding-right:37px; color:#c9252b; font-size:22px;}
+	.voltar{background:url(../_img/right.png) no-repeat left top; height:30px; color:#c9252b; font-size:22px; padding-top:3px; margin:40px 0 0; float:left;}
+	.voltar a{padding-left:37px; color:#c9252b; font-size:22px;}
+	
+/* O Evento */
+#content_eve{margin-top:35px; float:left; width:100%; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#828282; text-align:justify;}
+	#content_eve .destaque{background:url(../_img/fundo_evento.jpg) no-repeat left; width:100%; height:329px; float:left; display:inline;}
+	.destaque .txt{width:475px; float:right; display:inline; margin:36px 44px 0 0; color:#fff;}
+	.destaque .txt h2{font-size:30px;}
+	.destaque .txt p{font-size:14px;}
+	#content_eve .subtitle{background:url(../_img/fund_subtit_evento.png) no-repeat left top; width:932px; height:60px; float:left; display:inline; padding:36px 0 0 44px; font-size:26px; font-weight:normal; color:#0a4595; margin-top:39px; text-transform:uppercase;}
+	#content_eve .carousel_evento{width:976px; float:left; display:inline;}
+	#content_eve .carousel_evento .carousel ul li{width:854px; float:left; display:inline;}
+	#content_eve .carousel_evento .next, #content_eve .carousel_evento .prev{margin-top:214px}
+	#content_eve .edicoes{width:410px; float:left; display:inline; margin:5px 0 0 16px; color:#0a4595;}
+		.edicoes h4{font-size:18px;}
+		.edicoes p{font-size:16px;}
+	#content_eve .right{float:right; margin-right:15px;}
+	
+	.veja_tambem{width:949px; float:left; display:inline; font-family:"ConduitITCRegular", Helvetica, sans-serif;}	
+	.veja_tambem h3{background:url(../_img/fundo_veja_tambem.png) no-repeat left top; width:949px; height:39px; float:left; display:inline; padding:22px 0 0 27px; font-size:17px; font-weight:normal; color:#0a4595; margin-top:39px; text-transform:uppercase;}
+	.veja_tambem .item{width:210px; float:left; display:inline; margin-right:53px;}
+		.item h4 a{font-size:22px; color:#0a4595; text-decoration:none !important; font-weight:normal; text-transform:uppercase; margin-bottom:8px; float:left; display:block;}
+		.item a{ font-size:16px; font-weight:normal; color:#0a4595; text-decoration:none !important;}
+	.veja_tambem .item .imagem{width:210px; height:84px; float:left; display:inline; padding:3px; margin-left:-3px;}
+	.veja_tambem .item:hover .imagem{border:3px solid #0a4595; padding:0;}
+	.veja_tambem .item p{float:left; display:block; margin-top:8px;}
+	.veja_tambem .item:hover p a{color:#fff; background:#0a4595;}
+	.veja_tambem .item:hover h4 a{text-decoration:underline;}
+	
+/* Releases */
+#content_rel{margin-top:35px; float:left; width:100%; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#828282; text-align:justify;}
+	#content_rel p{width:100%}
+	#content_rel .itemrel{width:976px; margin-top:5px; float:left;}
+	#content_rel .itens{width:100%; padding:20px 0 20px; border-bottom:1px dotted #828282; float:left;}
+	#content_rel .itens ul li{float:left; display:inline; width:28%; text-align:center;}
+	#content_rel .itens ul li.first{width:16%;}
+	#content_rel .itens ul.titulo li{font-size:22px; color:#c9252b; text-transform:uppercase;}/* Releases */
+
+/* Banco de Arquivos */
+#content_ba{margin-top:35px; float:left; width:100%; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#828282; text-align:justify; font-weight:normal;}
+	#content_ba p.intro{width:448px;}
+	#content_ba .itemba p{width:290px; float:left; display:inline;}
+	#content_ba .itemba{width:470px; height:127px; display:inline-block; margin:30px 0 20px 0;}
+	#content_ba .itemba img{float:left; margin-right:27px;}
+	#content_ba .itemba h4{color:#c9252b; font-size:22px; text-transform:uppercase; font-weight:normal; margin-bottom:25px; display:block;}
+	#content_ba .itemba p{color:#7d7d7d; font-size:16px; line-height:22px;}
+	#content_ba .itemba .btn_download{background:#c9252b; width:118px; height:35px; font-size:22px; float:left; display:inline; color:#fff; text-decoration:none; text-transform:uppercase; padding:0 0 0 27px; line-height:38px;}
+	#content_ba .itemba .btn_download:hover{background:#fff; color:#c9252b;}
+	
+/* mapa do site */
+#content_mapa{width:100%; margin-top:35px; float:left; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#828282; text-align:justify; font-weight:normal;}
+	#content_mapa .itemmapa{background:#dcdcdc; width:191px; height:214px; float:left; display:inline; margin:0 0 6px 6px;}
+	#content_mapa .itemmapa:hover{background:#868686;}
+	#content_mapa .itemmapa:hover li, #content_mapa .itemmapa:hover li a{color:#fff;}
+		.itemmapa ul{margin:23px 0 0 21px;}
+		.itemmapa ul li.first{margin-bottom:10px; text-transform:uppercase;}
+		.itemmapa ul li.first a{font-size:18px; color:#484848; font-weight:bold;}
+		.itemmapa ul li{font-size:18px; color:#484848; font-weight:bold;}
+		.itemmapa ul li a{font-size:16px; color:#616161; font-weight:normal; text-decoration:none;}
+		.itemmapa ul li a:hover{text-decoration:underline;}
+		
+/* Contato */
+#content_contato{width:100%; margin-top:35px; float:left; font-size:16px; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#7d7d7d; text-align:justify; font-weight:normal;}
+	#content_contato .collum_left{width:545px;}
+	#content_contato .border_topo{background:url(../_img/border_top_cont.png) no-repeat left top; width:545px; height:12px; float:left; display:inline; margin-top:36px;}
+	#content_contato .border_baixo{background:url(../_img/border_bottom_cont.png) no-repeat left top; width:545px; height:12px; float:left; display:inline;}
+	#content_contato form{background:#e3e3e3 url(../_img/fundo_meio_contato.png) repeat-x left top; width:514px; float:left; display:inline; padding:34px 0 0 28px; border-left:1px solid #b7b7b7; border-right:1px solid #b7b7b7;}
+	#content_contato ul{float:left; display:inline;}
+	#content_contato ul li{margin:0 0 13px 23px; display:inline-block;}
+	#content_contato label{width:85px; font-size:18px; color:#7c7c7c; font-weight:bold; text-transform:uppercase; float:left; display:inline; text-align:right; margin:8px 23px 0 0;}
+	#content_contato input, #content_contato textarea{background:#fff; width:339px; height:29px; border:1px solid #cbc6c6; float:left; display:inline;}
+	#content_contato textarea{height:148px;}
+	#content_contato .btn_contato{width:449px;}
+	#content_contato .enviar{background:url(../_img/btn_enviar.png) no-repeat left top; width:189px; height:31px; float:left; display:inline; border:0; margin-left:259px; cursor:pointer;}
+	#content_contato .msg_contato{float:right; display:inline; margin-top:15px;}
+	#content_contato .enviar:hover, #content_contato .enviar:active{background:url(../_img/btn_enviar.png) no-repeat 0 -31px;}
+	#content_contato .desativado{background-position:0 -62px; cursor:default;}
+	#content_contato .desativado:hover{background-position:0 -62px;}
+	#content_contato .collum_right{margin:106px 12px 0 0; width:311px;}
+	#content_contato .cadastramento{width:318px; float:left; display:inline; margin:101px 0 0 20px;}
+	#content_contato .cadastramento_balao{background:url(../_img/balao_sucesso.png) no-repeat left top; width:252px; height:106px; float:left; display:none; padding:27px 33px 0 33px; font-size:15px; font-weight:bold;}
+	.caixa_voluntario { background:url(../_img/bg_cadastro.jpg) no-repeat; width:945px; height:175px; padding:15px; display:inline-block; color:#fff; font: 13px "ConduitITCRegular", Helvetica, sans-serif; margin-top:20px; }
+	.caixa_voluntario p { margin-bottom:20px; line-height:16px }
+	.voluntario { margin-top:0px!important; }
+	.voluntario ul li { margin: 0 0 13px 7px!important; }
+	.voluntario label { width:110px!important }
+	.voluntario label.s { width:70px!important; }
+	.voluntario input.s { width:142px!important; }
+	
+	.voluntario input[type="checkbox"] { width:13px!important; margin: 0px 8px 0 0!important;  }
+	.voluntario label.disponibilidade { width:225px!important; }
+	.voluntario .lbldisp { width:55px!important; margin:8px 5px 0 0!important; text-align:left!important; }
+	
+	.voluntario label.modalidades { width:210px!important; }
+	ul.modalidades li { width:165px; display:inline-block; float:left; margin:0 0 0 0!important; }
+	ul.modalidades li label { height:33px; margin:8px 8px 0 0!important; }
+
+#content .locais_comp{background:none; padding-left:34px; width:942px; font:normal "ConduitITCRegular", Helvetica, sans-serif; color:#707070;}
+	#content .locais_comp h2{background:url(../_img/pin_locais.png) no-repeat left top; width:266px; font:normal 27px "ConduitITCRegular", Helvetica, sans-serif; height:46px; float:left; display:inline; padding-left:46px; text-transform:uppercase;}
+	#content .locais_comp p{color:#707070; text-align:justify}
+	#content .locais_comp .esportes{margin-top:8px;}
+		.esportes li{padding:2px 3px 1px 0;}
+		.esportes li a{padding:3px; font-size:12px; text-transform:uppercase; text-decoration:none; color:#707070; font-family:"ConduitITCRegular", Helvetica, sans-serif;}
+		.esportes li a:hover{background:#707070; color:#fff;}
+		
+	#content .locais_comp h2.guia_dicas{background:url(../_img/pin_dicas.png) no-repeat left top;}
+	#content .locais_comp .dicas{margin-top:28px;}
+	.dicas li{padding:4px 3px 4px 0;}
+	.dicas li a{font-size:13px;}

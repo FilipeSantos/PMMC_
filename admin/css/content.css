@@ -1,0 +1,15 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'ConduitITCRegular';
+    src: url('/_fonts/conduit_itc-webfont.eot');
+    src: url('/_fonts/conduit_itc-webfont.eot?iefix') format('eot'),
+         url('/_fonts/conduit_itc-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body#tinymce {font: 15px 'ConduitITCRegular', Helvetica, sans-serif; color: #828282; text-align: justify;}
+	p {padding-bottom: 15px;}
+	h1, h2, h3, h4, h5, h6 {}
+	.imgDesc1 {display: block; width: 592px !important; height: 395px !important;}
+	.imgDesc2 {display: block; width: 350px !important; height: 233px !important; float: left;}

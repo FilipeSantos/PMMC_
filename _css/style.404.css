@@ -1,0 +1,31 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'ConduitITCRegular';
+    src: url('../_fonts/conduit_itc-webfont.eot');
+    src: url('../_fonts/conduit_itc-webfont.eot?iefix') format('eot'),
+         url('../_fonts/conduit_itc-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {width: 100%; height: 100%;}
+body {background: #f1f1f1;}
+
+#distance404 {width: 1px; height: 50%; margin-bottom: -259px; float: left;}
+#container404 {width: 1000px; height: 519px; margin: 0 auto; clear: left; position: relative;}
+    #header {width: 680px; height: 120px; padding-left: 320px; position: relative; z-index: 5;}
+	h1 {width: 221px; height: 75px; margin-right: 51px; float: left;}
+	h1 a {display: block; width: 221px; height: 75px; text-indent: -9999px; overflow: hidden; background: url(../_img/h1-error.gif);}
+	h2 {width: 62px; height: 51px; margin-top: 13px; float: left;}
+	h2 a {display: block; width: 62px; height: 51px; text-indent: -9999px; overflow: hidden; background: url(../_img/h2-error.gif);}
+    .left {width: 573px; height: 378px; float: left; position: relative; z-index: 1;}
+	span.img {display: block; height: 519px; text-indent: -9999px; overflow: hidden; position: absolute; top: 0; left: 0;}
+	span.img1 {width: 629px; background: url(../_img/error_futebol.jpg); top: -120px; left: 0;}
+	span.img2 {width: 699px; background: url(../_img/error_basquete.jpg); top: -120px; left: -128px;}	
+    .right {width: 372px; height: 300px; float: left; position: relative; z-index: 5;}
+	h3 {width: 308px; height: 114px; margin-top: 1px; margin-bottom: 24px; text-indent: -9999px; overflow: hidden; background: url(../_img/h3-error.gif) no-repeat right;}
+	p {font: 16px/20px 'ConduitITCRegular', Tahoma, sans-serif; color: #7d7d7d; text-align: center;}
+	a {width: 356px; text-align: center; font-weight: normal; font-style: italic; text-decoration: none;}
+	a:hover {text-decoration: underline;}
+	a.linkRed {color: #bf060b;}
+	a.linkBlue {color: #0a4595;}

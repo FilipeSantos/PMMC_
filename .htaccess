@@ -1,0 +1,123 @@
+Redirect 301 /historia_dos_jogos.php /jogos/historia-dos-jogos
+Redirect 301 /o_evento.php /jogos/o-evento
+Redirect 301 /releases.php /sala-de-imprensa/releases
+Redirect 301 /cidade_sede.php /cidade/cidade-sede
+Redirect 301 /dicas.php /jogos/dicas
+Redirect 301 /mapa_interativo.php /mapa-interativo
+Redirect 301 /mapa_do_site.php /mapa-do-site
+Redirect 301 /banco_de_arquivos.php /sala-de-imprensa/banco-de-arquivos
+Redirect 301 /cadastramento_voluntario.php /cadastramento-voluntario
+Redirect 301 /cadastramento.php /sala-de-imprensa/cadastramento
+Redirect 301 /locais_de_competicao.php /jogos/locais-de-competicao
+Redirect 301 /atletas_mogianos.php /cidade/atletas-mogianos/
+Redirect 301 /atletas_mogianos_akcel.php /cidade/atletas-mogianos/akcel-de-godoy
+Redirect 301 /atletas_mogianos_dirceu.php /cidade/atletas-mogianos/dirceu-jose
+Redirect 301 /atletas_mogianos_lucila.php /cidade/atletas-mogianos/lucila-martins
+Redirect 301 /galeria_multimidia.php /galeria-multimidia
+Redirect 301 /noticias_20101115.php /noticia/mogi-conquista-os-jogos-abertos-e-se-prepara-para-receber-edicao-de-2011
+Redirect 301 /noticias_20101116.php /noticia/campeoes-dos-jogos-abertos-sao-homenageados-por-mogi-das-cruzes
+Redirect 301 /noticias_20101210.php /noticia/comite-dos-jogos-abertos-e-de-conselho-do-desporto-sao-empossados
+Redirect 301 /noticias_20110129.php /noticia/parque-botyra-e-revitalizado-pela-prefeitura-e-entregue-a-populacao
+Redirect 301 /noticias_20110202.php /noticia/bertaiolli-e-secretario-estadual-do-esporte-discutem-jogos-abertos
+Redirect 301 /noticias_20110223.php /noticia/mogi-recebe-visita-do-chefe-do-comite-dirigente-dos-jogos-abertos
+Redirect 301 /noticias_20110314.php /noticia/secretaria-de-esporte-fecha-parceria-com-o-palmeiras-para-equipe-de-judo
+Redirect 301 /noticias_20110324.php /noticia/primeira-fase-da-revitalizacao-do-ginasio-municipal-para-os-jogos-abertos-e-entregue
+Redirect 301 /noticias_20110406.php /noticia/bertaiolli-recebe-visita-do-chefe-do-comite-dirigente-dos-jogos-abertos
+Redirect 301 /noticias_20110408.php /noticia/instalacao-de-cadeiras-no-ginasio-municipal-para-os-jogos-abertos-tem-licitacao-homologada
+Redirect 301 /noticias_20110513.php /noticia/local-das-competicoes-de-boxe-nos-jogos-abertos-e-definido
+Redirect 301 /noticias_20110525.php /noticia/ibirapuera-recebera-atletismo-dos-jogos-abertos-do-interior
+Redirect 301 /noticias_20110526.php /noticia/terminal-central-recebe-votacao-do-mascote-para-dos-jogos-abertos
+Redirect 301 /noticias_20110602_a.php /noticia/alunos-de-mogi-das-cruzes-tem-aula-sobre-os-jogos-abertos
+Redirect 301 /noticias_20110602_b.php /noticia/votacao-para-escolha-do-mascote-dos-jogos-abertos-supera-marca-de-10-mil-votos
+Redirect 301 /mod_atletismo.php /modalidade/atletismo
+Redirect 301 /mod_basquete.php /modalidade/basquete
+Redirect 301 /mod_biribol.php /modalidade/biribol
+Redirect 301 /mod_bocha.php /modalidade/bocha
+Redirect 301 /mod_boxe.php /modalidade/boxe
+Redirect 301 /mod_capoeira.php /modalidade/capoeira
+Redirect 301 /mod_ciclismo.php /modalidade/ciclismo
+Redirect 301 /mod_damas.php /modalidade/damas
+Redirect 301 /mod_futebol.php /modalidade/futebol
+Redirect 301 /mod_futsal.php /modalidade/futsal
+Redirect 301 /mod_ginasticaartistica.php /modalidade/ginastica-artistica
+Redirect 301 /mod_ginasticaritmica.php /modalidade/ginastica-ritmica
+Redirect 301 /mod_handebol.php /modalidade/handebol
+Redirect 301 /mod_judo.php /modalidade/judo
+Redirect 301 /mod_karate.php /modalidade/karate
+Redirect 301 /mod_kickboxing.php /modalidade/kickboxing
+Redirect 301 /mod_lutaolimpica.php /modalidade/luta-olimpica
+Redirect 301 /mod_malha.php /modalidade/malha
+Redirect 301 /mod_natacao.php /modalidade/natacao
+Redirect 301 /mod_taekwondo.php /modalidade/taekwondo
+Redirect 301 /mod_tenis.php /modalidade/tenis
+Redirect 301 /mod_tenisdemesa.php /modalidade/tenis-de-mesa
+Redirect 301 /mod_volei.php /modalidade/volei
+Redirect 301 /mod_voleidepraia.php /modalidade/volei-de-praia
+Redirect 301 /mod_xadrez.php /modalidade/xadrez
+
+<IfModule mod_rewrite.c>
+    Options +FollowSymLinks
+    RewriteEngine on
+
+    RewriteCond %{http_host} ^jogosabertos2011.tboom.net [nc]
+    RewriteRule ^(.*)$ http://www.jogosabertos2011.tboom.net/$1 [r=301,nc]
+
+    RewriteCond %{http_host} ^jogosabertos2011.com.br [nc]
+    RewriteRule ^(.*)$ http://www.jogosabertos2011.com.br/$1 [r=301,nc]
+    
+    RewriteRule ^noticia/imprimir/([0-9]+)$ /noticia/imprimir.php?id=$1 [nc]
+    RewriteRule ^galeria-multimidia/([0-9]+)$ /galeria-multimidia.php?id=$1 [nc]
+    RewriteRule ^jogos/parceiros-e-descontos/([0-9]+)$ /jogos/parceiros-e-descontos.php?servico=$1 [nc]
+    RewriteRule ^jogos/cidades-participantes/([_a-zA-Z0-9-]+)$ /jogos/cidades-participantes.php?slug=$1 [nc]    
+    RewriteRule ^noticia/([_a-zA-Z0-9-]+)$ /noticia.php?slug=$1 [nc]
+    RewriteRule ^categoria/([_a-zA-Z0-9-]+)$ /categoria.php?slug=$1 [nc]
+    RewriteRule ^categoria/([_a-zA-Z0-9-]+)/pagina/([0-9]+)$ /categoria.php?slug=$1&page=$2 [nc]
+    RewriteRule ^busca/(.+)/pagina/([0-9]+)$ /busca.php?busca=$1&page=$2 [nc]
+    RewriteRule ^busca/(.+)$ /busca.php?busca=$1 [nc]
+    RewriteRule ^(todas-noticias|sala-de-imprensa/releases|banco-de-arquivos|boletins)/pagina/([0-9]+)$ /$1.php?page=$2 [nc]
+    RewriteRule ^modalidade/([_a-zA-Z0-9-]+)$ /modalidade.php?slug=$1 [nc]
+    
+    RewriteRule ^([_a-zA-Z0-9-]+|[_a-zA-Z0-9-]+/[_a-zA-Z0-9-]+|[_a-zA-Z0-9-]+/[_a-zA-Z0-9-]+/[_a-zA-Z0-9-]+)$ $1.php [nc]
+</IfModule>
+
+<ifModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 1 seconds"
+    ExpiresByType image/x-icon "access plus 1209600 seconds"
+    ExpiresByType image/jpeg "access plus 1 seconds"
+    ExpiresByType image/png "access plus 1 seconds"
+    ExpiresByType image/gif "access plus 1209600 seconds"
+    ExpiresByType application/x-shockwave-flash "access plus 1209600 seconds" 
+    ExpiresByType text/css "access plus 1 seconds"
+    ExpiresByType text/javascript "access plus 1 seconds"
+    ExpiresByType application/javascript "access plus 1 seconds"
+    ExpiresByType application/x-javascript "access plus 1 seconds"
+    ExpiresByType text/html "access plus 1800 seconds"
+    ExpiresByType application/xhtml+xml "access plus 1800 seconds"
+    ExpiresByType application/vnd.ms-fontobject "access plus 1209600 seconds"
+    ExpiresByType font/opentype "access plus 1209600 seconds"
+    ExpiresByType application/x-font-ttf "access plus 1209600 seconds"
+</ifModule>
+
+<ifModule mod_headers.c>
+    <filesMatch "\.(ico|jpe?g|png|gif|swf)$">
+        Header set Cache-Control "public"
+    </filesMatch>
+    <filesMatch "\.(css)$">
+        Header set Cache-Control "public"
+    </filesMatch>
+    <filesMatch "\.(js)$">
+        Header set Cache-Control "public"
+    </filesMatch>
+    <filesMatch "\.(x?html?|php)$">
+        Header set Cache-Control "private, must-revalidate"
+    </filesMatch>
+</ifModule>
+
+<ifModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript
+</ifModule>
+
+FileETag None
+
+ErrorDocument 404 /_inc/404.php

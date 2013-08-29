@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hoteis>
+  <hotel name="Paradise Resort Golf Village" info="End.: Rod. Engº Cândido do Rego Chaves, 4.500 (SP 39 – KM 50) - Jundiapeba" lat="-23.5498089" lng="-46.257461000000035" address='Rod. Engenheiro Cândido do Rego Chaves, 4.500 - Jundiapeba' />
+  <hotel name="Hotel Binder Quality Inn" info="Rua Dr. Deodato Wertheimer 1413 - Centro - Mogi das Cruzes" lat="-23.5237762" lng="-46.19462440000001" address='R. Dr. Deodato Wertheimer, 1413 - Centro Mogi das Cruzes - São Paulo, 08710-430, Brasil' />
+  <hotel name="Hotel Marbor" info="End.: Rua Juvenal Granado Nali, 35 - Centro" lat="-23.5247535" lng="-46.18713389999999" address='Rua Juvenal Granado Nali 35 - Centro Mogi das Cruzes - São Paulo, Brasil' />
+  <hotel name="San Gabriel hotel" info="End.: Rua Professor Flaviano de Mello, 677 - Centro" lat="-23.5229998" lng="-46.19663300000002" address='Rua Professor Flaviano de Mello 677 - Centro Mogi das Cruzes - São Paulo, Brasil' />
+  <hotel name="Mercure Apt Mogi das Cruzes" info="End.: Rua Duarte de Freitas, 35 - Parque Monte Líbano" lat="-23.5188657" lng="-46.182027000000005" address='Rua Duarte de Freitas, 35 - Parque Monte Líbano Mogi das Cruzes - São Paulo, Brasil' />
+  <hotel name="Victória Park hotel" info="Estrada do Parque, km 3 - Sabaúna" lat="-23.4703643" lng="-46.07778429999996" address='Estrada do Parque, km 3 - Sabaúna Mogi das Cruzes - São Paulo, Brasil' />
+  <hotel name="W. G. de Carvalho" info="End.: Rua Casarejos, nº 1.000 - Mogilar" lat="-23.5158505" lng="-46.18983709999998" address='Rua Casarejos, 1.000 - Mogilar Mogi das Cruzes - São Paulo, Brasil' />
+  <hotel name="Morada Tokyo Plaza" info="End.: Rua José Malozze, 560 - Mogilar" lat="-23.5165656" lng="-46.193747099999996" address='R. José Malozze, 560 - Vila Mogilar Mogi das Cruzes - São Paulo, 08773-200, Brasil' />
+  <hotel name="Flat Acadêmico" info="End.: Rua Adriano Cézar Pinto, 150 - Socorro" lat="-23.5184227" lng="-46.17407830000002" address='Rua Adriano Cézar Pinto, 150 - Socorro Mogi das Cruzes - São Paulo, Brasil' />
+</hoteis>

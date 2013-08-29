@@ -1,0 +1,422 @@
+<?php
+        require_once($_SERVER['DOCUMENT_ROOT'] . '/_inc/Cache.class.php');
+	$cache = new Cache();
+	$cache->set_arquivo('page_' . $_SERVER['REQUEST_URI']);
+	$cache->set_tempo(0);
+	$cache->start();
+	
+	if($cache->cached === FALSE):
+	      date_default_timezone_set('America/Sao_Paulo');
+	      $dataAtual = time();
+	      $dataSorteioIni = mktime(11, 0, 0, 10, 22, 2011);
+	      $dataSorteioFim = mktime(14, 0, 0, 10, 22, 2011);
+	      
+	      $preSorteio = ($dataAtual < $dataSorteioIni);
+	      $sorteio = ($dataAtual >= $dataSorteioIni && $dataAtual < $dataSorteioFim);
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Site oficial dos Jogos Abertos do Interior 2011. Notícias, fotos, vídeos e tudo sobre as disputas, competidores e delegações" />
+<meta name="keywords" content="JAI, Jogos, Abertos, Mogi, interior, olimpíadas, esporte, 2011, competição, campeonato, atletismo" />
+<meta name="robots" content="index,follow" />
+<meta http-equiv="content-language" content="pt-br" />
+<meta name="author" content="Tboom Interactive"  />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.jogosabertos2011.com.br/" />
+<meta property="og:title" content="Jogos Abertos do Interior de 2011" />
+<meta property="og:description" content="Site oficial dos Jogos Abertos do Interior 2011. Notícias, fotos, vídeos e tudo sobre as disputas, competidores e delegações"/>
+<meta property="og:image" content="http://www.jogosabertos2011.com.br/_img/img_share.jpg" />
+<meta property="og:site_name" content="Jogos Abertos do Interior - Mogi das Cruzes" />
+<title>Jogos Abertos do Interior de 2011</title>
+<link rel="SHORTCUT ICON" href="/_img/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/_css/reset.css">
+<link rel="stylesheet" type="text/css" href="/_css/style.css">
+<link rel="stylesheet" type="text/css" href="/_css/jquery.countdown.css">
+<link rel="canonical" href="http://www.jogosabertos2011.com.br<?php echo $_SERVER['REQUEST_URI']; ?>" />
+<script type="text/javascript" src="/_js/jquery.js"></script>
+<script type="text/javascript" src="/_js/jquery.jparallax.js"></script>
+<script type="text/javascript" src="/_js/jcarousellite_1.0.1.min.js"></script>
+<script type="text/javascript" src="/_js/jquery.countdown.js"></script>
+<script type="text/javascript" src="/_js/functions.js"></script>
+<script type="text/javascript" src="/_js/func_home.js"></script>
+</head>
+
+<body>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/_inc/bg.php'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/_inc/header.php') ?>
+    <div class="content" id="content">
+    	<?php include($_SERVER['DOCUMENT_ROOT'] . '/_inc/navbar.php') ?>
+	<br clear="all" />
+	<div id="boxModalidades">
+		<h3>Veja as últimas da sua modalidade favorita:</h3>
+		<ul id="listHomeModalidades">
+			<li>
+				<a id="btnFutebol" href="/modalidade/futebol">Futebol</a>
+				<div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Futebol</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnVolei" href="/modalidade/volei">Vôlei</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Vôlei</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnJudo" href="/modalidade/judo">Judô</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Judô</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnBoxe" href="/modalidade/boxe">Boxe</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Boxe</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnBasquete" href="/modalidade/basquete">Basquete</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Basquete</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnHandebol" href="/modalidade/handebol">Handebol</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Handebol</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnNatacao" href="/modalidade/natacao">Natação</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Natação</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnLutaOlimpica" href="/modalidade/luta-olimpica">Luta Olímpica</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Luta Olímpica</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnTenisMesa" href="/modalidade/tenis-de-mesa">Tênis de Mesa</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Tênis de Mesa</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnCiclismo" href="/modalidade/ciclismo">Ciclismo</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Ciclismo</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnGinasticaRitmica" href="/modalidade/ginastica-ritmica">Ginástica Rítmica</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Ginástica Rítmica</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnGinasticaArtistica" href="/modalidade/ginastica-artistica">Ginástica Artística</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Ginástica Artística</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnTenis" href="/modalidade/tenis">Tênis</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Tênis</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnBiribol" href="/modalidade/biribol">Biribol</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Biribol</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnCapoeira" href="/modalidade/capoeira">Capoeira</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Capoeira</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnTaekwondo" href="/modalidade/taekwondo">Taekwondo</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Taekwondo</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnMalha" href="/modalidade/malha">Malha</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Malha</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnBocha" href="/modalidade/bocha">Bocha</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Bocha</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnDamas" href="/modalidade/damas">Damas</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Damas</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnAtletismo" href="/modalidade/atletismo">Atletismo</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Atletismo</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnVoleiPraia" href="/modalidade/volei-de-praia">Vôlei de Praia</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Vôlei de Praia</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnXadrez" href="/modalidade/xadrez">Xadrez</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Xadrez</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnFutsal" href="/modalidade/futsal">Futsal</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Futsal</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnKarate" href="/modalidade/karate">Karatê</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Karatê</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+			<li>
+				<a id="btnKickboxing" href="/modalidade/kickboxing">Kickboxing</a>
+			  <div class="tooltip">
+					<div class="top">&nbsp;</div>
+					<div class="content">Kickboxing</div>
+					<div class="bgGray">&nbsp;</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div id="leftHome">
+	      <?php if($preSorteio) : ?>
+		    <h3 id="sorteio"><a href="/sorteio-tecnico.php">22/10. Acompanhe aqui o sorteio das chaves em tempo real.</a></h3>
+	      <?php elseif($sorteio) : ?>
+		    <h3 id="sorteio2"><a href="/sorteio-tecnico.php">Bola rolando - Acompanhe o sorteio das chaves em tempo real.</a></h3>
+	      <?php else : ?>
+		    <h3 id="sorteio3"><a href="/sorteio-tecnico.php">Desafio marcado - Veja o resultado do sorteio das chaves.</a></h3>
+	      <?php endif; ?>
+    	<h3 id="taxa"><a href="/taxa-participacao">ATENÇÃO. Está aberto o prazo de pagamento da Taxa de Participação. CLIQUE E SAIBA MAIS.</a></h3>
+		<?php /*<h3 id="conhecaMascote"><a href="/jogos/mascote">Conheça o Mascote Oficial</a></h3> */ ?>
+		<h3 id="cidadesPart"><a href="/jogos/cidades-participantes">Confira as Cidades Participantes</a></h3>
+        <h3 id="sitePrefeitura"><a href="http://www.mogidascruzes.sp.gov.br/index.php" target="_blank">Visite o Site da Prefeitura de Mogi - mogidascruzes.sp.gov.br</a></h3>
+		<div class="itemSideHome">
+			<div class="boxTltHome">
+				<h3 class="tltBlue">Sobre Mogi</h3>
+				<span class="bgGray">&nbsp;</span>
+			</div>
+			<div class="carousel_home">
+	      <div class="prev"></div>
+				<div class="carousel" id="carousel">
+				    <ul>
+					<li><img src="/_img/ft_cidade_01.jpg" width="251" height="158" alt="Sobre Mogi" /></li>
+					<li><img src="/_img/ft_cidade_02.jpg" width="251" height="158" alt="Sobre Mogi" /></li>
+					<li><img src="/_img/ft_cidade_03.jpg" width="251" height="158" alt="Sobre Mogi" /></li>
+					<li><img src="/_img/ft_cidade_04.jpg" width="251" height="158" alt="Sobre Mogi" /></li>
+					<li><img src="/_img/ft_cidade_05.jpg" width="251" height="158" alt="Sobre Mogi" /></li>
+					<li><img src="/_img/ft_cidade_06.jpg" width="251" height="158" alt="Sobre Mogi" /></li>
+					<li><img src="/_img/ft_cidade_07.jpg" width="251" height="158" alt="Sobre Mogi" /></li>
+					<li><img src="/_img/ft_cidade_08.jpg" width="251" height="158" alt="Sobre Mogi" /></li>
+					<li><img src="/_img/ft_cidade_09.jpg" width="251" height="158" alt="Sobre Mogi" /></li>
+				    </ul>
+				</div>
+				<div class="next"></div>
+			</div>
+			<p><a href="/cidade/sobre-mogi">Conheça mais sobre Mogi das Cruzes, a cidade-<br />sede dos Jogos Abertos do Interior de 2011.</a></p>
+		</div>
+	</div>
+	<div id="rightHome">
+			<?php
+				require_once($_SERVER['DOCUMENT_ROOT'] . '/_inc/db.class.php');
+				require_once($_SERVER['DOCUMENT_ROOT'] . '/_inc/Utility.class.php');
+				
+				$noticias = Noticia::get_destaque('home');
+				$utility = new Utility();
+				$cont = 0;
+				$idsExibidos = array();
+			?>
+			<div class="noticiaTop noticiaContent">
+				<?php while(isset($noticias[$cont]) && $noticias[$cont]['exibirHome'] <= 2 && $cont <= 1) : $idsExibidos[] = $noticias[$cont]['id']; ?>
+					<div class="itemNoticia">
+						<a class="img" href="/noticia/<?php echo $noticias[$cont]['permalink']; ?>"><img src="<?php echo $noticias[$cont]['imagemThumb']; ?>" alt="<?php echo htmlspecialchars(stripslashes($noticias[$cont]['titulo'])); ?>" /></a>
+						<h3><a href="/noticia/<?php echo $noticias[$cont]['permalink']; ?>"><?php echo stripslashes($noticias[$cont++]['titulo']); ?></a></h3>
+					</div>
+				<?php endwhile; ?>
+				<br clear="all" />
+			</div>
+			<div class="destaquesSub">
+				<div class="noticiaMid noticiaContent">
+					<?php while(isset($noticias[$cont]) && $noticias[$cont]['exibirHome'] <= 4 && $cont <= 3) : $idsExibidos[] = $noticias[$cont]['id']; ?>
+						<div class="itemNoticia">
+							<a class="img" href="/noticia/<?php echo $noticias[$cont]['permalink']; ?>"><img src="<?php echo str_replace('/upload/', '/upload/thumbMid/', $noticias[$cont]['imagemThumb']); ?>" alt="<?php echo htmlspecialchars(stripslashes($noticias[$cont]['titulo'])); ?>" /></a>
+							<div class="txt">
+					      <h5><?php echo $noticias[$cont]['categoria']; ?></h5>
+								<h3><a href="/noticia/<?php echo $noticias[$cont]['permalink']; ?>"><?php echo stripslashes($noticias[$cont++]['titulo']); ?></a></h3>
+							</div>
+						</div>
+					<?php endwhile; ?>
+					<br clear="all" />
+				</div>
+				
+				<div class="noticiaMid noticiaContent">
+					<?php while(isset($noticias[$cont]) && $noticias[$cont]['exibirHome'] <= 6 && $cont <= 5) : $idsExibidos[] = $noticias[$cont]['id']; ?>
+						<div class="itemNoticia">
+							<a class="img" href="/noticia/<?php echo $noticias[$cont]['permalink']; ?>"><img src="<?php echo str_replace('/upload/', '/upload/thumbMid/', $noticias[$cont]['imagemThumb']); ?>" alt="<?php echo htmlspecialchars(stripslashes($noticias[$cont]['titulo'])); ?>" /></a>
+							<div class="txt">
+					      <h5><?php echo $noticias[$cont]['categoria']; ?></h5>
+								<h3><a href="/noticia/<?php echo $noticias[$cont]['permalink']; ?>"><?php echo stripslashes($noticias[$cont++]['titulo']); ?></a></h3>
+							</div>
+						</div>
+					<?php endwhile; ?>
+					<br clear="all" />
+				</div>
+			</div>
+		
+		
+			<div class="boxHome296">
+				<div class="boxTltHome">
+					<h3 class="tltYellow">Galeria Multimídia</h3>
+					<span class="bgGray">&nbsp;</span>
+				</div>
+				<h5 class="tltYellow">Vídeos</h5>
+				<?php
+					require($_SERVER['DOCUMENT_ROOT'] . '/admin/_lib/Galeria.class.php');
+					$galeriaVideo = Galeria::get_galeria(FALSE, 2, FALSE, TRUE, FALSE, 'limit 0,2');
+				?>
+				<?php if($galeriaVideo) : foreach($galeriaVideo as $item) :
+					unset($categ);
+					if(isset($item->categorias)){
+						$categ = '';
+						foreach($item->categorias as $itemCateg){
+							$categ = '<a href="/categoria/' . $itemCateg['permalink'] . '">' . $itemCateg['titulo'] . '</a>, ';
+						}
+						$categ = substr($categ, 0, -2);
+					}
+					?>
+					<div class="itemSideVideos">
+						<a class="img" href="/galeria-multimidia/<?php echo $item->id; ?>"><img src="<?php echo $item->thumb; ?>" alt="<?php echo $item->titulo; ?>" /></a>
+						<div class="txt">
+				      <h5><?php echo $categ; ?></h5>
+							<h3><a href="/galeria-multimidia/<?php echo $item->id; ?>"><?php echo $item->titulo; ?></a></h3>
+						</div>
+						<br clear="all" />
+					</div>
+				<?php endforeach; endif; ?>
+	
+				<h5 class="tltYellow">Fotos</h5>
+				<div id="boxSideFotos">
+					<ul>
+						<?php
+							$galeriaFoto = Galeria::get_galeria(FALSE, 1, FALSE, FALSE, FALSE, 'limit 0, 16');
+							if($galeriaFoto) : foreach($galeriaFoto as $item) :
+								$titleAlt = htmlspecialchars($item->titulo);
+						?>
+							<li><a href="/galeria-multimidia/<?php echo $item->id; ?>" title="<?php echo $titleAlt; ?>"><img src="/upload/galeria/thumb/<?php echo $item->thumb; ?>" alt="<?php echo $titleAlt; ?>" /></a></li>
+						<?php endforeach; endif; ?>
+					</ul>
+					<br clear="all" />
+				</div>
+				<a href="/galeria-multimidia" id="btnGaleriaComp">galeria completa</a>
+			</div>
+			<div class="boxHome296 boxHome296Last">
+				<div class="boxTltHome">
+					<h3 class="tltRed">Mais notícias</h3>
+					<span class="bgGray">&nbsp;</span>
+				</div>
+				<?php
+					$ultimasNoticias = Noticia::get_ultimas($idsExibidos);
+					$dataPrev = '';
+					$i = 0;
+					if($ultimasNoticias !== FALSE) :
+					foreach($ultimasNoticias as $item) :
+				?>
+				<div class="item">
+						<p class="data"><?php echo $item['data']; ?></p>
+						<div class="txt">
+							<p class="categoria"><?php echo $item['categoria']; ?></p>
+							<h3><a href="/noticia/<?php echo $item['permalink']; ?>"><?php echo $utility->limit_string($item['titulo'], 80); ?></a></h3>
+						
+						</div>
+						<br clear="all" />
+					</div>
+				<?php endforeach; endif; ?>	
+				<div class="mais_noticias">
+					<a href="/todas-noticias">todas as notícias</a>
+				</div>
+		</div>
+		<br clear="all" />
+	</div>
+	<br clear="all" />
+    	<?php include($_SERVER['DOCUMENT_ROOT'] . '/_inc/footer.php'); ?>
+    </div>
+</body>
+</html>
+
+<?php endif; $cache->close(); ?>

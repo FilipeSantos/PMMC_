@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<turismos>
+  <turismo name="Parque Centenário" info="Avenida Francisco Rodrigues Filho s/nº. Tel.: 4739-2345" lat="-23.508642" lng="-46.173953" address='Av. Francisco Rodrigues Filho, 1513-1989, Mogi das Cruzes - São Paulo, 08773-380' img='mapa/_img/parquecentenario.jpg' id='pq_01' />
+  
+  <turismo name="Parque Leon Feffer" info="Avenida Valentina Mello Freire Borenstein,  s/nº. - Vila São Francisco. Tel.: 4729-6356" lat="-23.527806" lng="-46.22676" address='Av. Valentina Mello Freire Borenstein - Vila São Francisco, Mogi das Cruzes - São Paulo, 08735-270' img='mapa/_img/parqueleon.jpg' id='pq_02' />
+  
+  <turismo name="Parque Municipal Botyra Camorin Gatti" info="Rua Olegário Paiva, s/nº. – Centro Cívico. Tel.: 4798-5087" lat="-23.517375" lng="-46.185676" address='R. Prof. Álvaro Pavan, 2-20 - Vila Sarah Avignon, Mogi das Cruzes - São Paulo, 08780-430' img='mapa/_img/parquebotyra.jpg' id='pq_03' />
+
+  <turismo name="Igrejas do Carmo" info="Largo do Carmo – Centro. Tel.: 4799-3320" lat="-23.5229757" lng="-46.1893518" address='Largo do Carmo - Centro, Mogi das Cruzes - São Paulo, Brasil' img='mapa/_img/igrejadocarmo.jpg' id='tur_01' />
+  
+  <turismo name="Igreja São Benedito" info="Santuário do Senhor Bom Jesus de Matosinhos. Tel.: 4799-9417" lat="-23.5208093" lng="-46.189681500000006" address='R. Dr. Corrêa, 318-380 - Centro, Mogi das Cruzes - São Paulo, 08710-040, Brasil' img='mapa/_img/igrejasaobenedito.jpg' id='tur_02' />
+  
+  <turismo name="Igreja Matriz de Sant'Anna" info="Praça Coronel Benedicto de Almeida - Centro. Tel.: 4799-3239" lat="-23.5230475" lng="-46.19161789999998" address='Catedral Diocesana Paróquia de Santana - Centro, Mogi das Cruzes - São Paulo, Brasil' img='mapa/_img/igrejamatriz.jpg' id='tur_03' />
+  
+  <turismo name="Theatro Vasques" info="Rua Dr Correa, 515 - Centro. Tel.: 4798-1747" lat="-23.5226935" lng="-46.18948769999997" address='R. Dr. Corrêa, 515 - Centro, Mogi das Cruzes - São Paulo, 08710-040, Brasil' img='mapa/_img/theatro.jpg' id='tur_04' />
+  
+  <turismo name="Feira Mogi Feito à Mão" info="Praça Oswaldo Cruz (aos sábados e domingos). Tel.: 4725-3341" lat="-23.521693" lng="-46.195536" address='R. Barão de Jaceguai, 287-321 - Centro, Mogi das Cruzes - São Paulo, 08710-160' img='mapa/_img/feiramogi.jpg' id='tur_05' />
+   
+  <turismo name="Ilha Marabá" info="Rua Delphino Alves Gregório, 790 – Mogilar. Tel.: 4790-5142" lat="-23.5126532" lng="-46.196154500000034" address='R. Delphino Alves Gregório, 790 - Vila Mogilar, Mogi das Cruzes - São Paulo, 08773-520, Brasil' img='mapa/_img/ilhamaraba.jpg' id='tur_06' />
+  
+  <turismo name="Mercado Municipal" info="Rua Coronel Souza Franco, 440 - Centro. Tel.: 4798-2687" lat="-23.5223751" lng="-46.193672100000015" address='R. Cel. Souza Franco, 440 - Cen	tro, Mogi das Cruzes - São Paulo, 08710-020, Brasil' img='mapa/_img/mercadomunicipal.jpg' id='tur_07' />
+  
+  <turismo name="Mercado do Produtor" info="Avenida Prefeito Carlos Ferreira Lopes. Tel.: 4790-5950" lat="-23.509832" lng="-46.191197" address='Av. Prefeito Carlos Ferreira Lopes, 362-888 - Vila Mogilar, Mogi das Cruzes - São Paulo, 08773-490' img='mapa/_img/mercadoprodutor.jpg'  id='tur_08' />
+  
+  <turismo name="Casarão do Carmo" info="Largo do Carmo. Tel.: 4725-1281" lat="-23.5229757" lng="-46.1893518" address='Largo do Carmo - Centro, Mogi das Cruzes - São Paulo, Brasil' img='mapa/_img/casaraodocarmo.jpg' id='tur_09' />
+  
+  <turismo name="Museu Histórico &quot;Profa. Guiomar Pinheiro Franco&quot;" info="Rua José Bonifácio, 202 – Centro. Tel.: 4725-9200" lat="-23.523739" lng="-46.19258" address='R. José Bonifácio, 202 - Centro, Mogi das Cruzes - São Paulo, 08710-070, Brasil' img='mapa/_img/museu.jpg' id='tur_10' />
+  
+  <turismo name="Corporação Musical Santa Cecília" info="Rua Dr. Correa, 522 – Centro. Tel.: 2378-9251" lat="-23.522721" lng="-46.18975" address='R. Dr. Corrêa, 522 - Centro Mogi das Cruzes - São Paulo, 08710-040' img='mapa/_img/corporacaomusical.jpg' id='tur_11' />
+  
+  <turismo name="Centro de Cultura e Memória &quot;Expedicionários Mogianos&quot;" info="Rua Coronel Souza Franco, 735 – Centro. Tel.: 4799-6068" lat="-23.522092" lng="-46.19076310000003" address='R. Cel. Souza Franco, 735 - Centro, Mogi das Cruzes - São Paulo, 08710-020, Brasil' img='mapa/_img/centrodecultura.jpg' id='tur_12' />
+  
+  <turismo name="Casarão do Chá" info="Estrada do Nagao, km 3 - Cocuera. Tel.: 4798-5196 (Coordenadoria de Turismo)" lat="-23.560156" lng="-46.13819620000004" address='Estr. Nagao, 3 Mogi das Cruzes - São Paulo' img='mapa/_img/casaraodocha.jpg' id='tur_13' />
+  
+  <turismo name="Pico do Urubu" info="Estrada Cruz do Século" lat="-23.5051684" lng="-46.20357690000003" address='Estr. Cruz do Século - Mogi das Cruzes - São Paulo, 08775-020, Brasil' img='mapa/_img/picodourubu.jpg' id='tur_14' />
+  
+  <turismo name="Distrito de Sabaúna" info="Distrito de Sabaúna. Tel.: 4798-5196 (Coordenadoria de Turismo)" lat="-23.479661" lng="-46.086702" img='mapa/_img/distritodesabauna.jpg' id='tur_15' />
+  
+  <turismo name="Distrito de Taiaçupeba" info="Distrito de Taiaçupeba. Tel.: 4798-5196 (Coordenadoria de Turismo)" lat="-23.673121" lng="-46.185628" img='mapa/_img/distritodetaiacupeba.jpg' id='tur_16' />
+</turismos>

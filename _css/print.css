@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+body {background: #fff;}
+
+    #content_not {width: 1000px; height: auto; margin: 0 auto; float: none; position: relative;}
+	#header {display: block; width: 100%; height: auto; background: transparent; margin: 0; padding: 0; float: none;}
+	#footer {display: block; width: 100%; height: auto; background: transparent; margin: 0; padding: 0; float: none;}
+	h2 {padding-bottom: 18px; font-family: 'ConduitITCExtraBoldRegular', Helvetica, sans-serif; font-size: 25px; color: #c9252b;}
+	h3 {text-transform: uppercase; font-weight: bold;}
+	p {color: #636363;}
+	#content_not p.data, #content_not p.data a {font: normal 16px/20px 'ConduitITCExtraBoldRegular', Helvetica, sans-serif; padding-bottom: 14px; color: #656565; float: none;}
+	.contentNoticia img {display: block; margin: 0 auto;}
+    
+@media print {
+    #content_not {width: 100%;}
+}

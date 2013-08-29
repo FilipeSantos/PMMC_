@@ -1,0 +1,402 @@
+@charset "utf-8";
+/* Sobre Mogi */
+#content_sobre{margin-top:35px; float:left; width:100%; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#828282; text-align:justify;}
+	#content_sobre .destaque{background:url(../_img/fundo_sobre.jpg) no-repeat left; width:100%; height:329px; float:left; display:inline;}
+	#content_sobre .destaque .txt{width:475px; height:280px; float:right; display:inline; margin:36px 44px 0 0; color:#fff; padding-right: 10px;padding-right: 10px;}
+		.destaque .txt h2 {font-weight:normal;}
+		.destaque .txt .txt_in {height:186px; overflow-y:scroll;padding-right:20px;}
+			.destaque .txt .txt_in p {font-size:15px;}
+
+	#content_sobre .subtitle{background:url(../_img/fund_subtit_evento.png) no-repeat left top; width:380px; height:60px; float:left; display:inline; padding:36px 0 0 44px; font-size:26px; font-weight:normal; color:#0a4595; margin:39px 40px 35px 0; text-transform:uppercase;}
+	#content_sobre .carousel_sobre{width:460px; float:left; display:inline;margin-bottom: 15px;}
+	#content_sobre .carousel_sobre .carousel ul li{width:313px; height:313px; float:left; display:inline;}
+	#content_sobre .carousel_sobre .next, #content_sobre .carousel_sobre .prev{margin:130px 15px 0}
+	#content_sobre .galeria{width:496px; float:left; display:inline; margin:5px 0 0 16px; color:#0a4595;}
+		.galeria span a {color: #0A4595;display:block;font-size:22px;font-weight:normal;text-decoration:none;text-transform: uppercase;margin-left: 135px;}
+	#content_sobre .mapa_cont{width:470px; float:left; display:inline;}
+		.mapa_cont .mapa{width:470px;}
+	#content_sobre .right{float:right; margin-right:15px;}
+	#content_sobre .veja_tambem .item a {padding:0;}
+
+/* Cidade Sede */
+#content_cidade{margin-top:35px; float:left; width:100%; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#828282; text-align:justify;}
+	#content_cidade .destaque{background:url(../_img/fundo_cidade_sede.jpg) no-repeat left; width:100%; height:329px; float:left; display:inline;}
+	#content_cidade .texto {margin-right:60px;}
+	#content_cidade .texto, #content_cidade .video {width:460px;height: 400px;margin-top:50px; float:left;}
+	#content_cidade .subtitle{width:480px; float:left; display:inline; font-size:26px; font-weight:normal; margin-bottom:15px; text-transform:uppercase;}
+	#content_cidade .right{float:right; margin-right:15px;}
+	#content_cidade .veja_tambem .item a {padding:0;}
+
+/* Palavra do Prefeito */	
+#content_palavra{margin-top:35px; float:left; width:100%; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#828282; text-align:justify;}
+	#content_palavra .destaque{background:url(../_img/fundo_palavra_prefeito.jpg) no-repeat left; width:100%; height:329px; float:left; display:inline;}
+		#content_palavra .destaque h2 {font-size:24px;width:477px;font-weight: normal;margin-top:60px;line-height:35px;}
+			#content_palavra .destaque h2 span {font-size:35px;color:#e3d200;}
+		#content_palavra .aspa {float: right; margin: -40px 15px 0 0;}
+	#content_palavra .texto {width:460px;height:330px;margin-top:50px; float:left;font-size:15px;}
+	#content_palavra .subtitle{width:480px; display:inline; font-size:23px; font-weight:normal; margin-bottom:15px;color:#bcae02;text-align:justify;line-height:28px;} 
+	#content_palavra .right{float:right; margin-right:15px;}
+	#content_palavra .veja_tambem .item a {padding:0;}
+	
+/* Galeria Multimídia */
+#content_galeria{margin-top:35px; float:left; width:100%; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#828282; text-align:justify;}
+	#content_galeria .videos, #content_galeria .fotos {width:430px; height: auto; margin-top:20px; font-size:15px;float:left}
+		#content_galeria .videos {margin-right:100px;}
+		#content_galeria .subtitle{width:430px;font-size:32px; font-weight:bold; margin-bottom:15px;color:#bcae02;text-align:justify;line-height:28px;text-transform:uppercase;} 
+		#content_galeria span {line-height:25px;}
+                #content_galeria .itemGalDestaque span a {color: #828282; font-size: 15px; text-decoration: none;}
+                #content_galeria .itemGalDestaque span a:hover {text-decoration: underline;}
+		#content_galeria h3 {width:430px;font-size:20px; font-weight:bold; margin-bottom:10px;color:#bcae02;text-align:justify;line-height:28px; text-transform:uppercase;}
+		#content_galeria  p {margin-top:15px; height:62px; overflow:hidden;}
+		#content_galeria  p.itemDataGal {width: 260px; height: 56px; overflow: hidden;}
+                #content_galeria  p.itemTltGal {width: 260px; padding-top: 16px; margin: 0; height: 18px; overflow: hidden;}
+                #content_galeria  p.itemTltGal span {padding: 0;}
+                #content_galeria .videos .listagem {height:auto;margin-top:50px;}
+			.listagem .subtitle {background:url(../_img/fundo_galeria_multimidia.jpg) repeat-x bottom;width:430px;font-size:20px !important; font-weight:normal; margin-bottom:15px;color:#bcae02;text-align:justify;line-height:28px;text-transform:uppercase;}
+			.videos .listagem ul {height: 445px; overflow-y:scroll; margin-top:10px;}
+			.videos .listagem ul li {border-bottom:1px dotted #BCAE02; padding-bottom:15px; float:left; cursor:pointer; padding:8px 15px 8px 8px;}
+			.videos .listagem ul li:hover {border-bottom:1px dotted #fff; background:#BCAE02;}
+			.videos .listagem ul li:hover p{color:#fff;}
+			.videos .listagem ul li:hover .title{color:#fff;}
+			.videos .listagem ul li:hover img{border:2px solid #fff; padding:0;}
+				.listagem p {float:left;margin: 0 !important;}
+					.listagem p .title {width:260px; height: 16px; overflow: hidden; text-transform:uppercase;color:#bcae02;display:block;line-height:16px !important;vertical-align:bottom;font-weight:bold;padding: 26px 0 0;}
+				.videos .listagem img {float:left;margin:0 10px 15px 0; padding:2px;}
+
+		#content_galeria .fotos .listagem {height: auto; margin-top:33px;}
+			.listagem .subtitle {background:url(../_img/fundo_galeria_multimidia.jpg) repeat-x bottom;width:430px;font-size:20px !important; font-weight:normal; margin-bottom:15px;color:#bcae02;text-align:justify;line-height:28px;text-transform:uppercase;}
+			.fotos .listagem ul {height: 360px; overflow-y: scroll; float: left;}
+			.fotos .listagem ul li {float:left;margin:0 25px 25px 0; }
+			.fotos .listagem ul li img {padding:2px; }
+			.fotos .listagem ul li img:hover {border:2px solid #BCAE02; padding:0; }
+
+/* História dos Jogos */	
+#content_historia{margin-top:35px; float:left; width:100%; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#828282; text-align:justify;}
+	#content_historia .destaque{background:url(../_img/fundo_historia.jpg) no-repeat left; width:100%; height:657px; float:left; display:inline;}
+	#content_historia .destaque .txt{width:430px; height:280px; float:left; display:inline; margin:50px 0 0 35px; color:#fff; padding-right: 10px;padding-right: 10px;}
+		.destaque .txt h2 {font-weight:normal;font-size:28px;text-transform:uppercase;}
+		.destaque .txt p {font-size:15px;}
+	#content_historia .subtitle{background:url(../_img/fund_subtit_evento.png) no-repeat left top; width:950px; height:60px; float:left; display:inline; padding:36px 0 0 44px; font-size:26px; font-weight:normal; color:#0a4595; margin:39px 40px 35px 0; text-transform:uppercase;}
+	#content_historia .carousel_historia{width:460px; float:left; display:inline;margin:0 0 15px 15px;}
+		#content_historia .carousel_historia .carousel ul li{width:400px; height:270px; float:left; display:inline;}
+		#content_historia .carousel_historia .next, #content_historia .carousel_historia .prev{margin:110px 15px 0; position:absolute; z-index:15;width:69px;height:69px;}
+		#content_historia .carousel_historia .next{background-image:url(../_img/setas_carousel_hist.png);background-position:right;margin-left:-15px;}
+		#content_historia .carousel_historia .prev{background-image:url(../_img/setas_carousel_hist.png);background-position:left;margin-left:-450px}
+	#content_historia .linha {width:880px; margin: 0 auto; overflow-x:scroll;}
+		#content_historia .linha ul {width: 21754px;}
+			.linha ul li {width:270px;height:125px;margin:0 0 0 20px;float:left;display:inline;}
+				.linha ul li .ano {width:260px;float:left; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#0a4595;font-size:35px;font-weight:bold;}
+				.linha ul li p {float:left;width:80px;text-align:right;text-transform:uppercase;line-height:20px;}
+				.linha ul li p.red {color:#ce2428; width:170px;text-align:left;margin-left:10px;}
+
+/* Atletas Mogianos */	
+#content_atletas{margin-top:15px; float:left; width:100%; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#828282; text-align:justify;}
+	#content_atletas .btn_atleta {width:469px;height:220px;float:left; display:inline;text-decoration:none;	}
+		.btn_atleta div {padding:10px;height:200px;}
+			.btn_atleta h2 {width:240px; float:left; display:inline; font-size:26px; font-weight:bold; margin-bottom:15px; text-transform:uppercase;color:#0a4595;}
+			.btn_atleta img {float:left; display:inline; margin-right:15px;}
+			.btn_atleta p {color:#0a4595;}
+			.btn_atleta .conheca {width:230px;height:35px;background:#0f68ca;margin-top:10px;padding-top:10px;text-align:center;color:#fff;float:left;text-transform:uppercase;font-size:28px;}
+		.btn_atleta:hover div {background:#0a4595;	}
+			.btn_atleta:hover p, .btn_atleta:hover h2 {color:#fff;}
+			
+	#content_atletas .destaque{background:url(../_img/fundo_atletas.jpg) no-repeat left; width:100%; height:358px; float:left; display:inline;}
+		#content_atletas .destaque .txt {width:942px;margin:17px;float:left;display:inline;}
+			#content_atletas .txt img {float:left;display:inline;margin-right:17px;}
+			#content_atletas .txt .subtitle {font-size:40px;font-weight:bold;margin-bottom:70px;}
+			#content_atletas .txt .subtitle_2 {margin-bottom:25px;}
+			#content_atletas .label {color:#e3d400;font-size:20px;font-weight:bold;margin-top:10px;display:inline-block;}
+			#content_atletas .txt p {background:url(../_img/atletas/icone_dirceu.png) no-repeat bottom right;line-height:18px;font-size:16px;width:600px;;height:212px;float:left;display:inline;}
+			#content_atletas .txt .p2 {background:url(../_img/atletas/icone_akcel.png) no-repeat bottom right;height:270px;font-size:14px}
+	#content_atletas .voltar_atletas {width:985px; height:40px; text-align:right; float:left;}
+		#content_atletas .voltar_atletas a{ color: #0A4595;margin-right:11px; font-family: "ConduitITCRegular",Helvetica,sans-serif; font-size: 16px; text-decoration: underline; padding: 4px;}
+		#content_atletas .voltar_atletas a:hover{color:#fff; background:#0a4595; text-decoration:none;}
+	#content_atletas .texto {margin-top:50px;float:left;}
+		#content_atletas .texto .subtitle {width:410px;color:#0a4595;font-size:26px;}
+		#content_atletas .texto span { width:410px;font-size:22px;display:inline-block;}
+		#content_atletas .texto h3 {font-size:24px; font-weight:bold;margin-bottom:20px;}
+		#content_atletas .texto iframe {margin-right:15px;}
+			#content_atletas .carousel_atletas{width:560px;height:280px; float:right; display:inline;margin:0 0 15px 15px;}
+				#content_atletas .carousel_atletas .carousel ul li{width:475px; height:274px; float:left; display:inline;}
+				#content_atletas .carousel_atletas .next, #content_atletas .carousel_atletas .prev{margin:130px 0 0}
+		
+	#content_atletas .veja_tambem .item a {padding:0;}
+
+	#content_atletas.content_mascote .destaque { background:#0A4595; width: 975px; }
+		#content_atletas.content_mascote .destaque .txt { margin:17px 17px 17px 0; width:959px; }
+		#content_atletas.content_mascote .destaque .txt .p2 { width:470px; height:225px; padding-right:135px; text-align:justify; background:url(../_img/mascote/icone.jpg) no-repeat bottom right; }
+/* Parceiros e Descontos */	
+	#content_parceiros {margin-top:35px; float:left; width:100%; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#828282; text-align:justify; }
+		#content_parceiros .subtitle{background:url(../_img/fund_subtit_evento.png) no-repeat left top; width:975px; height:60px; display:inline-block; padding:36px 0 0 44px; font-size:26px; font-weight:normal; color:#0a4595; margin:39px 40px 35px 0; text-transform:uppercase;}
+		#content_parceiros label { margin-bottom:10px; text-transform:uppercase; display:inline-block; }
+		#content_parceiros select { display:none; }
+		
+		#content_parceiros .item { width: 315px; height: 300px; margin-right:175px; font-size:18px; line-height:24px; font-weight:bold; float:left; }
+			#content_parceiros .item span { font-weight:normal; }
+                        #content_parceiros .item span a {font-weight:normal; font-size: 18px; line-height: 24px; color: #828282;}
+                        #content_parceiros .item span a:hover {text-decoration: underline !important;}
+			#content_parceiros .item span#title { color:#0a4595; font-weight:bold; font-size:21px;  }
+			#content_parceiros .bgGray { width: 300px; height: 28px; margin:-22px 0 0 6px; background: #d6d5d5; z-index: -1; position:absolute; opacity: .7; filter: alpha(opacity=70); -ms-filter: "alpha(opacity=70)"; -khtml-opacity: .70; -moz-opacity: .70; }
+/* Cidades Participantes */
+	#content .alojamentos { width:976px; padding-left:0; }
+		#content .alojamentos p {color:#707070; font-size:14px; text-align:justify; background:url(../_img/pin_alojamentos.png) no-repeat left top; text-indent:40px;padding:30px 0 15px; }
+		#content .alojamentos .info_mapa { width:300px; margin-left:30px; }
+
+	#content_participantes { height: auto; margin-top: 16px; float: none; width:100%; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#828282; text-align:justify; position: relative; z-index: 1;}
+		#frmParticipantes {width: 936px; min-height: 701px; padding: 0 20px; overflow: hidden; position: relative; z-index: 5;}
+                #content_participantes .box {width:976px; height: auto; position: relative; z-index:-2}
+			#boxSelectCid .bgGray { width: 300px; height: 28px; margin:-22px 0 0 6px; background: #d6d5d5; z-index: 0; position:absolute; opacity: .7; filter: alpha(opacity=70); -ms-filter: "alpha(opacity=70)"; -khtml-opacity: .70; -moz-opacity: .70; }
+			#content_participantes .bgGraybox { width: 976px; height: 741px; margin: 0; background: #d6d5d5; z-index: 2; position:absolute; top: 6px; left: 9px; opacity: .5; filter: alpha(opacity=50); -ms-filter: "alpha(opacity=50)"; -khtml-opacity: .50; -moz-opacity: .50; }
+			#content_participantes label { margin-bottom:10px; text-transform:uppercase; display:inline-block; }
+				#content_participantes .subtitle { width:480px; height:80px; margin:30px 0 0; font-size: 28px; text-transform: uppercase; }
+				#content_participantes .subtitleFlag {font-size: 29px; }
+					#content_participantes .subtitleFlag span { display: block; font-size: 18px; }
+					#content_participantes .subtitleFlag .colocacao {  color:#676565; text-transform: uppercase; margin-top:10px;}
+					#content_participantes .subtitleFlag .colocacao2 { color:#878787; font-weight: normal; }
+                #content_participantes .subtitle img {width: 78px; height: 53px; margin: 0 10px 30px 0; float:left; }
+				#content_participantes .mapa { width:400px; height:350px; margin-top:15px; overflow: hidden;}
+				#content_participantes .r {width: 410px; float: right; margin-top: 0; padding-top: 95px; }
+					#content_participantes .r .subtitle { width:410px; height:auto; font-size: 24px; }
+					#content_participantes .r .subtitle2 { width:410px; height:auto; margin-top: 30px; font-size: 18px; text-transform: uppercase; }
+		                #content_participantes h2.subtitle2Aloj {font-family:"ConduitITCRegular", Helvetica, sans-serif; color: #828282; text-transform: uppercase; margin-top:60px !important;}
+	                        #content_participantes .r .mod { height:320px; padding:0px 65px 10px; }
+								#content_participantes .r .mod_especiais { padding:0px 65px 10px; }
+								#content_participantes .r .mod img,
+								#content_participantes .r .mod_especiais img { float:left; }
+					.r .partQuadro { float: left; margin-bottom:50px; }
+						.r .partQuadro h2 { text-transform: uppercase; font-size: 24px; margin-bottom: 15px; }
+						.r .partQuadro .divisao { background: #e7e7e7; height: 45px; line-height: 45px; display: block; padding: 0 14px; color: #7C7C7C;  float: left; font-size: 18px; }
+						.r .partQuadro ul { float:left; }
+						.r .partQuadro ul li { width:401px; height:60px; display: block; float: left; }
+							.r .partQuadro ul li:first-child span {border: 0;}
+							.r .partQuadro ul li span:first-child {width: 132px;}
+							.r .partQuadro ul li span { background-color:#e7e7e7; width: 67px; height:40px; padding-top:20px; color: #878787; text-align: center; font-size: 18px; font-weight:bold; display: block; float: left; border-top:1px solid #fff; text-transform:uppercase; }
+                                                        .r .partQuadro ul li .ouro { background:url(../_img/med_ouro.png) no-repeat 50% 50% #e7e7e7;  }
+							.r .partQuadro ul li .prata { background:url(../_img/med_prata.png) no-repeat 50% 50% #e7e7e7 }
+							.r .partQuadro ul li .bronze { background:url(../_img/med_bronze.png) no-repeat 50% 50% #e7e7e7; }
+							.r .partQuadro ul li .total { background:url(../_img/med_total.png) no-repeat 50% 50% #e7e7e7; }
+							.r .partQuadro ul li.total { height:51px; border-bottom:1px solid #fff; }
+								.r .partQuadro ul li.total span { height:35px; padding-top:15px; background:#d1d0d0; color: #0a4595; }
+							.r .partQuadro ul .scroll-pane li { height:40px; }
+								.r .partQuadro ul .scroll-pane li span { height:30px; padding-top:10px; font-size: 16px; font-weight: normal; }
+								.r .partQuadro ul .scroll-pane li span:first-child { border-right:1px solid #fff; }
+							
+						.r .partQuadro p, .r .partClassif p { display: block; float: left; width: 400px; margin-top:5px; }
+							.r .partQuadro .veja, .r .partClassif .veja { background:#c9252b; color:#fff; padding:0 15px ; display: block; float: left; line-height: 25px; font-size:14px; text-transform:uppercase; text-decoration: none; }
+							.r .partQuadro .update, .r .partClassif .update { display: block; font-size: 14px; line-height: 25px; font-weight:normal;  width: auto; float: right;  }
+							.r .partQuadro .veja:hover, .r .partClassif .veja:hover {background: #ec484e;}
+                                                        
+					.r .partClassif { float: left; margin-bottom:50px; }
+						.r .partClassif h2 { text-transform: uppercase; font-size: 24px; margin-bottom: 15px; }
+						.r .partClassif .divisao { background: #e7e7e7; height: 45px; line-height: 45px; display: block; padding: 0 14px; color: #7C7C7C;  float: left; font-size: 18px; }
+						.r .partClassif  ul { float:left; }
+						.r .partClassif  ul li:first-child { background:#e7e7e7; }
+						.r .partClassif  ul li { background:#d1d0d0; width:400px; height:60px; display: block; float: left;  }
+							.r .partClassif  ul li span { width:170px; height:40px; padding:20px 0 0 30px; color: #0a4595; font-size: 18px; font-weight:bold; display: block; float: left; border-top:1px solid #fff; text-transform:uppercase;  }
+						
+				#content_participantes #containerTab { width:450px; height:730px; position: relative;}
+                                #content_participantes #containerTab .bgDisabledContent {display: none; width: 450px; height: 675px; background: #E7E7E7; position: absolute; top: 55px; left: 0;  z-index: 100; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=10)"; filter: alpha(opacity=10); -moz-opacity:0.1; -khtml-opacity: 0.1; opacity: 0.1;}
+				#content_participantes #containerTab .boxLoading {display: none; width: 40px; height: 40px; margin-left: -20px; position: absolute; top: 102px; left: 50%; z-index: 101;}
+                                #content_participantes #containerTab .boxLoading img {width: 100%; height: 100%;}
+                                #content_participantes #containerTab .tab { width:460px !important;  }
+					#content_participantes.l { width: 460px; }
+						.l .partProg h2:first-child { text-transform: uppercase; font-size: 24px; margin:15px 0 5px; }
+						.l .partProg #listTab { margin-top: 0px; }
+						#content_participantes .prog-title .data { width:370px; font-size: 18px; font-weight: bold; }
+						#content_participantes .scroll-pane .item { width:450px; height: auto; border:0; padding: 20px 0 16px 0; }
+                                                #content_participantes .scroll-pane .itemResultCid1 {background: #ddd;}
+                                                #content_participantes .scroll-pane .itemResultCid2 {background: #e7e7e7;}
+                                                #content_participantes .scroll-pane .itemNenhumaProva p {width: 100%; text-align: center;}
+						#content_participantes .scroll-pane .item span {display: block; padding-bottom: 0; text-align: left;}
+                                                #content_participantes .scroll-pane .item a {color: #C9252B;}
+                                                #content_participantes .scroll-pane .item a.btnBold {font-weight: bold;}
+                                                #content_participantes .scroll-pane .item a:hover {text-decoration: underline !important;}
+                                                        #content_participantes .item .icon { height:100px; padding:0 10px; display: block; float: left; }
+							#content_participantes .item p {width: 352px; line-height: 18px; float: left;}
+							.mais-prog { background:#C9252B; color:#fff; padding:0 20px; line-height: 26px; font-size: 14px; text-decoration: none; text-transform:uppercase; display: inline-block; margin-top:10px; }
+                                                        .mais-prog:hover {background: #ec484e;}
+                                                #content_participantes .partNoticias {width:375px; margin-top:30px;}
+							#content_participantes .partNoticias h2 {background:#c9252b; width:375px; line-height:40px; font-size: 27px; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#fff; text-align: center; }
+							#content_participantes .partNoticias .sombra {background: #DDEDE; width:373px; height: 40px; margin: -33px 0 0 28px; *margin-top:0;left:0; display: block; z-index: -1;}
+							#content_participantes .partNoticias ul {width: 375px; height: auto; padding-top: 12px; margin-bottom: 6px; float: left;}
+                                                        #content_participantes .partNoticias ul li {width: 375px; height: auto; border-bottom: 1px dotted #828282; padding: 20px 0;}
+								#content_participantes .partNoticias .data {display: block; width: 42px; height: 55px; color: #656565; float: left;}                                                                
+                                                                #content_participantes .partNoticias a.img {display: block; width: 55px; height: 55px; margin: 0 5px; overflow: hidden; position: relative; float:left;}
+                                                                #content_participantes .partNoticias a.img img {width: 55px; height: 55px; border: 0;}
+                                                                #content_participantes .partNoticias a.img:hover {width: 49px; height: 49px; border: 3px solid #c9252b;}
+                                                                #content_participantes .partNoticias a.img:hover img {margin: -3px 0 0 -3px}
+								
+                                                                #content_participantes .partNoticias .boxTxt {width: 262px; height: auto; overflow: hidden; float: left;}
+                                                                #content_participantes .partNoticias .boxTxtNoImg {width: 330px;}
+                                                                #content_participantes .partNoticias span.categoria {display: block; padding-bottom: 8px;}                                                                
+								#content_participantes .partNoticias .categoria a {font-size: 14px; color: #656565; text-decoration: none;}
+								#content_participantes .partNoticias .categoria a:hover {text-decoration: underline;}
+                                                                #content_participantes .partNoticias span.titulo {display: block; height: auto; overflow: hidden;}
+                                                                #content_participantes .partNoticias .titulo a { font-family:"ConduitITCExtraBoldRegular", Helvetica, sans-serif; font-size: 16px; line-height: 18px; color:#c9252b; text-decoration: none; }
+                                                                #content_participantes .partNoticias .titulo a:hover {text-decoration: underline;}
+                                        
+                                        #content_participantes .partNoticias .mais {font-family:"ConduitITCRegular", Helvetica, sans-serif; font-size: 16px; color:#c9252b; text-decoration: none; text-transform: uppercase;}
+					#content_participantes .partNoticias .mais:hover {text-decoration: underline;}
+                                        
+				ul#listParticipantesModalidades2 {height: auto; }
+				ul.listPartModalidades { width:400px; height: auto; overflow: visible; float: left;}
+					ul.listPartModalidades li {width:35px; height:35px; padding: 2px 0px; margin-right: 4px; position: relative; overflow: visible; float: left; position: relative; z-index: 1;}
+					ul.listPartModalidades li.itemActive {z-index: 5;}
+                    ul.listPartModalidades li a {display: block; width: 55px; height: 55px; overflow: hidden; position: relative; z-index: 1;}
+                    ul.listPartModalidades li a img { width:35px; }
+					/*ul.listPartModalidades a#btnPart1 {background-position: 1px 1px;}
+					ul.listPartModalidades a#btnPart2 {background-position: -58px 1px;}
+					ul.listPartModalidades a#btnPart3 {background-position: -117px 1px;}
+					ul.listPartModalidades a#btnPart4 {background-position: -176px 1px;}
+					ul.listPartModalidades a#btnPart5 {background-position: -233px 1px;}
+					ul.listPartModalidades a#btnPart6 {background-position: 1px -56px;}
+					ul.listPartModalidades a#btnPart7 {background-position: -58px -56px;}
+                    ul.listPartModalidades a#btnPart27 {background-position: -58px -56px;}
+					ul.listPartModalidades a#btnPart8 {background-position: -117px -56px;}
+					ul.listPartModalidades a#btnPart9 {background-position: -176px -56px;}
+					ul.listPartModalidades a#btnPart10 {background-position: -233px -56px;}
+					ul.listPartModalidades a#btnPart11 {background-position: 1px -111px;}
+					ul.listPartModalidades a#btnPart12 {background-position: -58px -111px;}
+					ul.listPartModalidades a#btnPart13 {background-position: -117px -111px;}
+					ul.listPartModalidades a#btnPart14 {background-position: -176px -111px;}
+					ul.listPartModalidades a#btnPart15 {background-position: -233px -111px;}
+					ul.listPartModalidades a#btnPart16 {background-position: 1px -166px;}
+					ul.listPartModalidades a#btnPart17 {background-position: -58px -166px;}
+					ul.listPartModalidades a#btnPart18 {background-position: -117px -166px;}
+					ul.listPartModalidades a#btnPart19 {background-position: -176px -166px;}
+					ul.listPartModalidades a#btnPart20 {background-position: -233px -166px;}
+                    ul.listPartModalidades a#btnPart26 {background-position: -233px -166px;}
+					ul.listPartModalidades a#btnPart21 {background-position: 1px -220px;}
+					ul.listPartModalidades a#btnPart22 {background-position: -58px -220px;}
+					ul.listPartModalidades a#btnPart23 {background-position: -117px -220px;}
+					ul.listPartModalidades a#btnPart24 {background-position: -175px -220px;}
+					ul.listPartModalidades a#btnPart25 {background-position: -233px -220px;}
+					*/
+					ul.listPartModalidades .tooltip {display: none; width: 500px; height: 42px; position: absolute; top: 65px; left: -30px; z-index: 10;}
+					#content_participantes ul.listPartModalidades .tooltip {top: 46px;}
+                                        ul.listPartModalidades .tooltip .top {width: 19px; height: 10px; background: url(../_img/bg-tooltipTop2.png); position: absolute; top: -10px; left: 48px; z-index: 10; cursor: pointer;}
+					ul.listPartModalidades .tooltip .content {width: auto; height: 42px; padding: 0 24px; font: 18px/42px "ConduitITCRegular", Helvetica, sans-serif; color: #0a4595; text-transform: uppercase; background: #fff; float: left; position: relative; z-index: 10; cursor: pointer;}
+					
+                        #boxSelectCid {width: 350px; height: 68px; padding: 26px 0 0 20px; position: relative; z-index: 10;}
+                        #boxSelectCid label#lblCidPart {width: 350px !important; text-transform: uppercase; color: #636161; font: 18px/24px "ConduitITCRegular", Helvetica, sans-serif;}
+
+	#content_taxa {width:100%; margin-top:35px; float:left; font-size:16px; font-family:"ConduitITCRegular", Helvetica, sans-serif; color:#7d7d7d; text-align:justify; font-weight:normal;}
+		#content_taxa .collum_left {width: 545px; float: left;}
+		#content_taxa .collum_right {float: right; display: inline; width: 40%;}
+		#content_taxa .border_topo {background:url(../_img/border_top_cont.png) no-repeat left top; width:545px; height:12px; display: block; margin-top:36px;}
+		#content_taxa .border_baixo{background:url(../_img/border_bottom_cont.png) no-repeat left top; width:545px; height:12px; display: block;}
+		#content_taxa .centro{background:#e3e3e3 url(../_img/fundo_meio_contato.png) repeat-x left top; width:490px; display: block; padding:20px 26px; border-left:1px solid #b7b7b7; border-right:1px solid #b7b7b7;}
+			#content_taxa h2 { font-size:28px; font-family:"ConduitITCRegular", Helvetica, sans-serif; text-align:center; margin-bottom:30px; }
+			#content_taxa p { font-family:"ConduitITCRegular", Helvetica, sans-serif; line-height:20px; margin-bottom:20px;}
+			#content_taxa p b { color:#c9252b; font-weight:bold; font-style:italic; }
+			#content_taxa p.dados { font-family:"ConduitITCExtraBoldRegular", Helvetica, sans-serif; font-weight:bold; font-size:18px; }
+			
+			#content_taxa .collum_right img { margin-top:150px; }
+/* Programação */
+	#content_prog {}
+		#content_prog #boxSelect {width: 250px; height: 68px; padding: 0 0 26px; display: inline-block; position: relative; z-index: 10; *float:left; }
+                #content_prog #boxSelect .bgDisabled {display: none; width: 250px; height: 68px; background: transparent; position: absolute; top: 0; left: 0; z-index: 100;}
+        #boxSelect label#lblCidPart {width: 350px !important; text-transform: uppercase; color: #636161; font: 18px/24px "ConduitITCRegular", Helvetica, sans-serif;}
+		.nav_prog { background: #c9252b; height:124px; }
+		.content_resultados .nav_prog { height: 125px !important; }
+			.nav_prog p { background: #0a4595; line-height:35px; padding-left: 15px; color:#fff; font-family:"ConduitITCRegular", Helvetica, sans-serif; }
+			.nav_prog .boxSelect {width: 250px; height: 58px; padding: 10px 15px 0 15px; position: relative; z-index: 10; display: inline-block; float: left; }
+			.nav_prog .boxSelect .bgDisabled {display: none; width: 258px; height: 68px; background: transparent; position: absolute; top: 6px; left: 14px; z-index: 100;}
+                                .boxSelectMod { padding: 10px 78px !important; }
+                        .nav_prog .boxSelect .bgDisabled {width: 328px;}
+	    	.nav_prog .boxSelect label {width: 350px !important; text-transform: uppercase; color: #fff; font: 18px/24px "ConduitITCExtraBoldRegular", Helvetica, sans-serif;}
+			.nav_prog .ui-selectmenu-icon { background: url(../_img/btn-dropdown.png) no-repeat 50% 50% #0a4595 !important; }
+			.nav_prog .ui-selectmenu-status { background: #DBDBDB; color: #7a7a7a; }
+		
+			.body_programacao .ui-selectmenu-menu-dropdown { width:212px!important; max-height:220px;}
+		
+		#content_prog #containerTab { background: none; }
+			#content_prog h2 { font-family:"ConduitITCRegular", Helvetica, sans-serif; color: #7a7a7a; font-size: 30px; line-height: 70px; text-transform: uppercase }
+			.prog-geral { display: inline-block; float: right; margin:10px 10px 0 0; }
+			.prog-title { font-family:"ConduitITCRegular", Helvetica, sans-serif; float: left; display: block; }
+			.prog-title span, .prog-title a { display: inline-block; float: left; }		
+				.prog-title .data, .prog-title .resultado { line-height: 55px; font-size: 30px; color:#fff; text-align: center; text-transform: uppercase }
+				.prog-title .data { background:#C9252B; width:520px; }
+				.prog-title .resultado { background:#0a4595; width:364px; }
+				#prog-prev, #prog-next, a.prog-prev, a.prog-next { background:#C9252B; width:40px; height: 55px; text-decoration: none; background-repeat: no-repeat; background-color: #C9252B; background-position: 50% 50%; }
+				#prog-prev, a.prog-prev { background-image: url(../_img/seta-branca-l.png); }
+				#prog-next, a.prog-next { background-image: url(../_img/seta-branca-r.png); }
+                    #prog-prev.hide, #prog-next.hide {background: #C9252B; text-decoration: none; cursor: default;}
+		    .prog-title-cidades a.hide {background: #C9252B; text-decoration: none; cursor: default;}
+                    .prog-title-cidades a.disabled {cursor: default;}
+                                #content_prog .scroll-pane {background:#E7E7E7;}
+                    #content_prog .scroll-pane .bgDisabledContent {display: none; width: 980px; height: 596px; background: #E7E7E7; position: absolute; top: 0; left: 0;  z-index: 100; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=10)"; filter: alpha(opacity=10); -moz-opacity:0.1; -khtml-opacity: 0.1; opacity: 0.1;}
+			#content_prog #containerTab .item  { min-height: 145px; border: 0; position: relative;}
+                .containerLoading {width: 50px; height: 50px; float: left;}
+                .boxLoading {display: none; width: 50px; height: 50px;}
+                .boxLoading img {display: block; width: 100%; height: 100%;}
+                #loadingContent {margin-left: -25px; position: absolute; top: 20px; left: 50%; z-index: 200;}
+                #loadingTop {width: 40px; height: 40px; margin: 20px 0 0 16px;}
+                #boxItens {width: 964px; min-height: 580px; overflow: hidden;}
+            
+            p.infoNenhumEvento {width: 600px; text-align: center; padding-top: 20px; font-family:"ConduitITCRegular", Helvetica, sans-serif; color: #7a7a7a; font-size: 22px;}
+            body.body_programacao_resultados p.infoNenhumEvento {width: 964px;}
+            .body_programacao p.vitoria, .modalidades-interna p.vitoria {color: #0a4595;}
+            .item1 { background: #d1d1d1; }
+			.item2 { background: #e2e2e1; }
+				.item .data { width: 580px; display: inline-block; min-height: 105px; padding: 20px 19px 20px 0; border-right: 1px solid #c5c5c5; float: left; position: relative;}
+					.item .data-left {display: block; width: 100px; height: 80px; padding-top: 0; text-align: center; float:left;}
+					.content_resultados .data-left { height: 100px; padding-top: 0; }
+						.data-left span { font-family:"ConduitITCExtraBoldRegular", Helvetica, sans-serif; font-weight:bold; font-size:22px;  color:#0a4595; line-height: 32px;}
+						.content_resultados .data-left span { display: block; font-size: 16px; line-height: 20px;}
+						.data-left img { width: 40px; }
+						.content_resultados .data-left img { width: auto; }
+					.item .data-right { width:475px; font-family:"ConduitITCRegular", Helvetica, sans-serif; color: #7a7a7a; font-size: 14px; display: block; float:left; }
+					.item .data-right a {font-size: 14px; color: #C9252B;}
+                        .item .data-right a:hover {text-decoration: underline !important;}
+                                .item .data-right h4 {display: block; line-height: 30px; *padding-top:15px;}
+                                .item .data-right h4 a {display: inline; font-family:"ConduitITCRegular", Helvetica, sans-serif; font-weight: bold; color: #7a7a7a; font-size: 22px; float: none;}
+						.data-right p { line-height: 16px; }
+				.item .res { display: inline-block; height: 145px; font-family:"ConduitITCRegular", Helvetica, sans-serif; color: #7a7a7a; float: left; }
+					.item .res p { height: 50px; }
+                                        .item .res p.last {height: 27px;}
+						.item .res p span { display: inline-block; text-transform: uppercase; text-align: center; }
+						.item .res p span.pts {display: block; width: 70px; height: 27px; line-height: 27px; font-family:"ConduitITCExtraBoldRegular", Helvetica, sans-serif; font-weight:bold; font-size:18px; float: left;}
+						.item .res p span.nome { width: 210px; margin-left: 15px; vertical-align: middle; font-size:16px; }
+						/*.item .res p span.nome span.cidWo {font-size: 12px; color: #7A7A7A;}*/
+                                                .item .res p span.spaceLine {line-height: 27px;}
+                                                .item .res p img { width: 40px; height: 27px; vertical-align: middle; }
+						.item .res span.x { width: 240px; display: block; text-transform: uppercase; text-align: right; padding-bottom: 20px; }
+				.item .resultado_1, .item .resultado_3 { width: 350px; overflow: hidden; padding-top: 15px; height: 130px; }
+				.item .resultado_2 {width: 350px; overflow: hidden; height: 130px; margin-top: -65px; position: absolute; top: 50%; right: 25px;}
+                                        .item .resultado_2 span.nome,
+					.item .resultado_3 span.nome { font-size:14px !important; }
+				.item .resultado_4 {height: 50px; margin-top: -25px; position: absolute; top: 50%; right: 55px;}
+					.item .resultado_4 .ver_res { display: block; background: #C9252B; width: 260px; height: 50px; line-height: 50px; color: #fff; text-align: center; font-size:24px; text-transform:uppercase; }
+					.item .resultado_4 .ver_res:hover {background: #ec484e;}
+				
+/* Programação Geral */
+		.content_pgeral p.first { font: 16px/20px 'ConduitITCRegular', Helvetica, sans-serif; color: #7D7D7D; margin-bottom:30px; }
+			.content_pgeral #containerTab { font-family: 'ConduitITCRegular', Helvetica, sans-serif; color:#5e5d5d;- }
+				.content_pgeral #containerTab span { display: inline-block; text-align: center; vertical-align: middle; float: left; }
+				.content_pgeral #containerTab .title { float: left; }
+					.content_pgeral #containerTab .boxLegenda { float: left; }
+				.content_pgeral p { display: inline-block; }
+				.content_pgeral .prog-p1 { background: #d6d6d6 }
+				.content_pgeral .prog-p2 { background: #e7e7e7 }
+					.content_pgeral p span { width:33px; height: 50px; padding:10px 4px 0; border-right: 1px solid #f1f1f1; text-transform: uppercase; } 
+					.content_pgeral #divisao, .content_pgeral #sexo, .content_pgeral #categoria { width:45px; height: 80px; padding-bottom:5px; text-indent:-9999em; float: left; }
+					.content_pgeral #divisao { background: url(../_img/prog-divisao.png) no-repeat center bottom; margin-left:206px; }
+					.content_pgeral #sexo { background: url(../_img/prog-sexo.png) no-repeat center bottom; }
+					.content_pgeral #categoria { background: url(../_img/prog-categoria.png) no-repeat center bottom; }
+				.content_pgeral .mes { float: left; width:595px;}
+					.content_pgeral .mes span { display: table-cell !important; }
+					.content_pgeral .mes .out, .content_pgeral .mes .nov { background: #0a4595; color: #fff; height: 25px; padding:10px 0 0; font-size: 18px; }
+					.content_pgeral .mes .nov { width:560px; }
+				.content_pgeral p .nome { width:209px; text-align: left !important; height:40px; padding-top: 20px; font-size: 16px; color: #7c7c7c; }
+				.content_pgeral p .divisao, .content_pgeral p .sexo, 
+				.content_pgeral p .categoria { color: #0a4595; height:40px; padding-top: 20px; }
+				.content_pgeral p .divisao, .content_pgeral p .sexo { border: 0; }
+				.content_pgeral p.legenda { width:900px; color: #999999; font-size: 18px; line-height: 22px; margin-top:5px; font-weight: bold; }
+					
+		
+
+
+
+
+

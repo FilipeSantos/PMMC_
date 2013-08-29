@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alojamentos>
+  <alojamento name="EM Prof. Dr. Jair Rocha Batalha" info="Rua Ulisses Borges de Siqueira, 611 - Braz Cubas" lat="-23.5420474" lng="-46.214841500000034" address='Av. Ulisses Borges de Siqueira, 611 - Vila Bernadotti, Mogi das Cruzes - São Paulo, 08740-580, Brasil' />
+  
+  <alojamento name="EM Eng. Cláudio Abrahão" info="Rua Benedito Carvalho Filho, 12 – Jardim Santa Teresa" lat="-23.557588" lng="-46.217500900000005" address='R. Benedito de Carvalho Filho, 12 - Jardim Santa Teresa, Mogi das Cruzes - São Paulo, 08761-000, Brasil' />
+  
+  <alojamento name="EM Profª Auta Cardoso de Mello" info="Rua Ícaro, 325 - Jardim Aeroporto III" lat="-23.5598557" lng="-46.22053140000003" address='R. Icaro, 325 - Jardim Aeroporto III, Mogi das Cruzes - São Paulo, 08761-470, Brasil' />
+  
+  <alojamento name="EM Dr. Luiz Beraldo de Miranda" info="Avenida Pref. Maurílio de Souza Leite Filho, 1.851 - Parque Olímpico" lat="-23.557588" lng="-46.217500900000005" address='R. Benedito de Carvalho Filho, 12 - Jardim Santa Teresa, Mogi das Cruzes - São Paulo, 08761-000, Brasil' />
+   
+  <alojamento name="EM José Cury Andere" info="Rua Santa Lúcia, 264 - Jardim Cecília" lat="-23.5522054" lng="-46.207670699999994" address='R. Santa Lúcia, 264 - Jardim Cecília, Mogi das Cruzes - São Paulo, 08742-010, Brasil' />
+  
+  <alojamento name="CEMPRE Dra Ruth Cardoso" info="Travessa Dois, 28 - Jardim Layr" lat="-23.5644918-" lng="46.219448899999975" address='Travessa Dois, 28 - Jardim Aeroporto III, Mogi das Cruzes - São Paulo, Brasil' />
+  
+  <alojamento name="EM Profª Florisa Faustino Pinto" info="Rua Europa, 20 - Jardim Santos Dumont" lat="-23.5758996" lng="-46.222246299999995" address='R. Europa, 20 - Jardim Santos Dumont II, Mogi das Cruzes - São Paulo, 08762-150, Brasil' />
+  
+  <alojamento name="EM Profª Therezinha Soares" info="Rua Unicor, 830 - Vila Brasileira" lat="-23.5574363" lng="-46.20137699999998" address='R. Unicor, 830 - Vila Brasileira, Mogi das Cruzes - São Paulo, 08738-300, Brasil' />
+  
+  <alojamento name="EM Prof. Jacks Grinberg " info="Avenida Amazonas, 499 - Vila Cintra" lat="-23.5489029" lng="-46.2308544" address='Av. Amazonas, 499 - Vila Cintra, Mogi das Cruzes - São Paulo, 08744-340, Brasil' />
+  
+  <alojamento name="EM Profª Teresa Martins Pinhal " info="Rua José Galdino de Castro, 252 - Vila Jundiaí" lat="-23.5436307" lng="-46.23714949999999" address='R. José Galdino de Castro, 252 - Vila Jundiaí, Mogi das Cruzes - São Paulo, 08745-340, Brasil' />
+  
+  <alojamento name="EM Benedito Ferreira Lopes – CAIC" info="Rua Profª Alice T. Cotrim G. Silva,  22 - Vila Lavínia" lat="-23.5489029" lng="-46.2308544" address='Av. Amazonas, 499 - Vila Cintra, Mogi das Cruzes - São Paulo, 08744-340, Brasil' />
+  
+  <alojamento name="EMESP Profª Jovita Franco Arouche " info="Rua José D'Carlo, 85 - Vila Lavínia" lat="-23.5376226" lng="-46.206385100000034" address='R. José D Carlo, 85 - Alto Ipiranga, Mogi das Cruzes - São Paulo, 08737-050, Brasil' />
+  
+  <alojamento name="EM(R) Profª Ana Maria de Azevedo Viné Carrare " info="Avenida Presidente Castelo Branco, 10.001 - Rio Acima" lat="-23.520933" lng="-46.184776" address='R. Barão de Jaceguai, 10.001 - Centro, Mogi das Cruzes - São Paulo, 08780-100' />
+  
+  <alojamento name="EM Profª Cynira Oliveira de Castro " info="Rua Antonio Máximo,  301 - Vila Suíssa" lat="-23.5016249" lng="-46.15452049999999" address='R. Antônio Máximo, 301 - Vila Suíssa, Mogi das Cruzes - São Paulo, 08810-090, Brasil' />
+  
+  <alojamento name="EM Profª Iracema Brasil de Siqueira " info="Avenida Ricieri José Marcatto, 686 - Vila Suissa" lat="-23.5037159" lng="-46.156501700000035" address='Av. Ricieri José Marcatto, 686 - Vila Suíssa, Mogi das Cruzes - São Paulo, 08810-020, Brasil' />
+  
+  <alojamento name="EM Des. Armindo Freire Mármora " info="Rua Aloísio de Azevedo, 109 - Jardim das Bandeiras" lat="-23.5216448" lng="-46.145404499999984" address='R. Aloísio de Azevedo, 109 - Jardim das Bandeiras, Mogi das Cruzes - São Paulo, 08830-420, Brasil' />
+  
+  <alojamento name="EM Profª Guiomar Pinheiro Franco " info="Rua Maria Giacco Ramos, 199 - Jardim São Pedro" lat="" lng="" address='' />
+  
+  <alojamento name="EM Pref. Maurílio de Souza Leite Filho " info="Rua Frei Francisco Sampaio, 44 - Jardim São Pedro" lat="-23.514745" lng="-46.14279010000001" address='R. Frei Francisco de Sampaio, 44 - Jardim Cíntia, Mogi das Cruzes - São Paulo, 08830-250, Brasil' />
+  
+  <alojamento name="EM Prof. Mário Portes" info="Rua Pedro Paulo dos Santos, 2.251 - Jundiapeba" lat="-23.5522701" lng="-46.23840540000003" address='R. Pedro Paulo dos Santos, 2 - Jundiapeba, Mogi das Cruzes - São Paulo, 08750-710, Brasil' />
+  
+  <alojamento name="EM Dr. Álvaro de Campos Carneiro" info="Rua Pedro Paulo dos Santos,  855 - Nova Jundiapeba" lat="-23.5512505" lng="-46.244930599999975" address='R. Pedro Paulo dos Santos, 855 - Jundiapeba, Mogi das Cruzes - São Paulo, 08750-710, Brasil' />
+  
+  <alojamento name="EM Verª Astréa Barral Nébias" info="Rua Profª Lucinda Bastos, 1051 – Jundiapeba" lat="-23.5495997" lng="-46.24933820000001" address='R. Profa. Lucinda Bastos, 1051 - Jundiapeba, Mogi das Cruzes - São Paulo, 08750-580, Brasil' />
+  
+  <alojamento name="EM Dr. Benedito Laporte Vieira da Motta" info="Avenida Alfredo Crestana, 431 – Jundiapeba" lat="-23.5464426" lng="-46.247450800000024" address='Av. Alfredo Crestana, 431 - Jundiapeba, Mogi das Cruzes - São Paulo, 08750-290, Brasil' />
+  
+  <alojamento name="EM Lourenço Della Nina" info="Rua Manoel Fernandes, 1.151 - Nova Jundiapeba" lat="-23.5533674" lng="-46.23796629999998" address='R. Manoel Fernandes, 1 - Jundiapeba, Mogi das Cruzes - São Paulo, 08750-720, Brasil' />
+  
+  <alojamento name="EM Profª Ana Maria Barbosa Garcia" info="Avenida Felipe Sawaia, 1030 – Botujuru" lat="-23.4851561" lng="-46.13257980000003" address='Av. Felipe Sawaya, 1030 - Vila São Paulo, Mogi das Cruzes - São Paulo, 08840-030, Brasil' />
+  
+  <alojamento name="EM Antonio Nacif Salemi" info="Rua Maria Osório do Valle, 271 - Alto do Ipiranga" lat="-23.4851561" lng="-46.13257980000003" address='Av. Felipe Sawaya, 1030 - Vila São Paulo, Mogi das Cruzes - São Paulo, 08840-030, Brasil' />
+  
+  <alojamento name="EM Narcisa das Dores Pinto" info="Rua Manoel Martins Sanches, 180 - Jardim Aracy" lat="-23.5042889" lng="-46.21581149999997" address='R. Manoel Martins Sanches, 180 - Mogi das Cruzes - São Paulo, 08770-510, Brasil' />
+
+  <alojamento name="EM Prof. Dermeval Arouca" info="Rua Jaime Angelo Nogueira, 30 - Jardim Ivete" lat="-23.545192" lng="-46.198441" address='R. Jaime Ângelo Nogueira, 30 - Loteamento Yotsu Tobisawa, Mogi das Cruzes - São Paulo, 08737-230' />
+  
+  <alojamento name="EM Profª Ivete Chuery Vieira Torquato Vicco" info="Rua Kikutaro Suzuki, s/n - Jardim Ivete" lat="-23.548403" lng="-46.197835" address='R. Kikutaro Suzuki, 1-131 - Jardim Lar Paraná, Mogi das Cruzes - São Paulo, 08738-040' />
+    
+  <alojamento name="EM Carlos Alberto Lopes" info="Rua Corrêa Neto, 366 – Mogilar" lat="-23.513532" lng="-46.193334" address='R. Dr. Corrêa Neto, 366 - Vila Mogilar, Mogi das Cruzes - São Paulo, 08773-500' />
+  
+  <alojamento name="EM Monteiro Lobato" info="Rua Abel José da Silva, 305 - Ponte Grande" lat="-23.5121,-46.207564" lng="" address='R. Abel José da Silva, 305 - Jardim Ponte Grande, Mogi das Cruzes - São Paulo, 08770-430' />
+  
+  <alojamento name="EM Dr. Milton Cruz " info="Rua Antenor de Souza Mello, 116 - Jardim Maricá" lat="-23.498764" lng="-46.180232" address='R. Antenor de Souza Melo, 116 - Jardim Maricá, Mogi das Cruzes - São Paulo, 08775-370' />
+  
+  <alojamento name="EM Profª Noemia Real Fidalgo " info="Avenida Ezelino da Cunha Glória, 285 - Jardim Maricá" lat="-23.496934" lng="-46.182882" address='Av. Ezelino da Cunha Glória, 285, Mogi das Cruzes - São Paulo, 08775-520' />
+  
+  <alojamento name="EM Prof. Benedito Estelita de Mello" info="Rua Rogério Tácola, 300 – Socorro" lat="-23.514422" lng="-46.175792" address='R. Rogério Tacola, 300 - Centro Cívico, Mogi das Cruzes - São Paulo, 08780-720' />
+  
+  <alojamento name="EM Prof. Lázaro Gonçalves Teixeira" info="Rua Prof. José Veiga, 190 - Conj. Hab. São Sebastião" lat="-23.56245" lng="-46.181972" address='R. Prof. José Veiga, 190 - Cj. Habitacional São Sebastião, Mogi das Cruzes - São Paulo, 08725-510' />
+    
+  <alojamento name="EM Prof. Adolfo Martini" info="Rua Profª Ana Maria Bernardes, 280 - Vila Industrial" lat="-23.5185" lng="-46.206796" address='R. Profa. Ana Maria Bernardes, 189-227 - Vila Industrial, Mogi das Cruzes - São Paulo, 08770-220' />
+  
+  <alojamento name="EM Henrique Peres" info="Rua Aprígio de Oliveira, 336 - Vila Industrial" lat="-23.520915" lng="-46.207413" address='R. Aprígio de Oliveira, 336 - Vila Industrial, Mogi das Cruzes - São Paulo, 08770-120' />
+  
+  <alojamento name="EM Profª Maria José Tenório de Aquino Silva" info="Av José Glicério de Melo, 1.462 - Jardim Camila" lat="-23.53855" lng="-46.177878" address='Av Jose Glicerio de Melo, 1462 - JD Camila, Mogi das Cruzes, 08720-060 (11) 4726-6146' />
+    
+  <alojamento name="EM Prof. Eulálio Gruppi" info="Rua Ismael da Silva Melo, 559 - Mogi Moderno" lat="-23.53687" lng="-46.189389" address='R. Ismael da Silva Mello, 559 - Mogi Moderno, Mogi das Cruzes - São Paulo, 08717-390' />
+  
+  <alojamento name="EM Profª Regina Célia Najar Ferreira Borelli" info="Rua Boracéia, 45 - Nova Bertioga" lat="-23.545893" lng="-46.185159" address='R. Boracéia, 45 - Cj. Residencial Nova Bertioga
+Mogi das Cruzes - São Paulo, 08725-030' />
+  
+  <alojamento name="EM Profª Ana Lúcia Ferreira de Souza" info="Rua Elias Pinheiro Nobre, 81 - Vila Rachel" lat="-23.539013" lng="-46.194361" address='R. Elias Pinheiro Nobre - Vila Rachel, Mogi das Cruzes - São Paulo, 08717-760' />
+  
+  <alojamento name="EM Prof. Afonso Caporali Filho" info="Rua Sebastião Michel Miguel 42 - Cj. Res. Cocuera" lat="-23.541663" lng="-46.166161" address='Rua Sebastião Michel Miguel, 42 - CJ Res Cocuera, Mogi das Cruzes, 08793-010' />
+  
+</alojamentos>

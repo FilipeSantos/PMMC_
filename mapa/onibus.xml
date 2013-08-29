@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<terminais>
+  <onibus name="Terminal Rodoviário Geraldo Scavone" info="Serve linhas intermunicipais vindas do Rio de Janeiro, São Paulo, Santos, Bertioga e Vale do paraíba, Avenida Francisco Rodrigues Filho, 1.500 - Mogilar. Tel.: 4790-1962" lat="-23.509532" lng="-46.18476509999999" address='Terminal Rodoviário Geraldo Scavone, Mogi das Cruzes' img='mapa/_img/terminalscavone.jpg' />
+  <onibus name="Terminal Central" info="Serve linhas municipais. Rua Professor Flaviano de Mello, 525 - Centro" lat="-23.5234765" lng="-46.198783100000014" address='Rua Professor Flaviano de Mello, 525 - Centro - Mogi das Cruzes. Tel.: 4798-5129' img='mapa/_img/terminalcentral.jpg' />
+  <onibus name="Terminal Estudantes" info="Serve linhas municipais e intermunicipais. Avenida Professor Álvaro Pavan x Avenida Cândido Xavier de Almeida e Souza. Tel.: 4798-5129" lat="-23.516132" lng="-46.185445000000016" address='Estudantes - Mogi das Cruzes' img='mapa/_img/terminalestudantes.jpg' />
+</terminais>

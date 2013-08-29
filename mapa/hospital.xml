@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hospitais>
+  <hospital name="Sta Casa de Misericórdia de Mogi das Cruzes" info="Rua Barão de Jaceguai, 1.148 - Centro. Tel.: 4728-4700" lat="-23.521146" lng="-46.186717" address='R. Barão de Jaceguai, 1148 - Centro - Mogi das Cruzes - São Paulo, 08780-100' img='mapa/_img/santa_casa.jpg' />
+
+  <hospital name="Hospital Luzia de Melo Pinho" info="Rua Manoel de Oliveira s/n - Mogilar. Tel.: 3583-2800" lat="-23.50998" lng="-46.195282" address='R. Manuel de Oliveira - Jardim Rodeio, Mogi das Cruzes - São Paulo, 08773-130'  img='mapa/_img/hospitalluiza.jpg' />
+
+  <hospital name="Hospital Dr. Arnaldo Pezzutti Cavalcanti" info="Estrada de Varinhas, km 03 - Jundiapeba. Tel.: 4723-9800" lat="-23.606812" lng="-46.264249" address='Estr. Varinhas, 3881-3917, Mogi das Cruzes - São Paulo, 08620-100' />
+  
+  <hospital name="Hospital Ipiranga" info="Rua Ipiranga, 797 – Alto do Ipiranga. Tel.: 4795-8600" lat="-23.528744" lng="-46.197909" address='R. Ipiranga, 797 - Centro, Mogi das Cruzes - São Paulo, 08730-000' img='mapa/_img/hospitalipiranga.jpg' />
+  
+  <hospital name="Hospital Santana" info="Rua Doutor Osmar Marinho Couto, 71 – Alto do Ipiranga. Tel.: 4723-4000" lat="-23.532904" lng="-46.205279" address='R. Dr. Osmar Marinho Couto, 71 - Vila Vitória, Mogi das Cruzes - São Paulo, 08730-500' img='mapa/_img/hospitalsantana.jpg' />
+  
+  <hospital name="Hospital Mogi Dor" info="Rua Marechal Deodoro, 83 - Centro. Tel.: 4799-0123" lat="-23.525386" lng="-46.188737" address='Rua Marechal Deodoro, 83 - Centro, Mogi das Cruzes, 08715-060' img='mapa/_img/mogidor.jpg' />
+  
+  <hospital name="Hospital Biocór" info="Rua Barão de Jaceguai, 1.337 - Centro. Tel.: 4798-2000" lat="-23.521012" lng="-46.185216" address='Rua Br Jaceguai, 1337 - Centro, Mogi das Cruzes, 08710-160' />
+</hospitais>

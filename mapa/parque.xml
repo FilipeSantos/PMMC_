@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<parques>
+  <parque name="Parque Centenário" info="Avenida Francisco Rodrigues Filho s/n" lat="-23.508642" lng="-46.173953" address='Av. Francisco Rodrigues Filho, 1513-1989, Mogi das Cruzes - São Paulo, 08773-380' img='mapa/_img/parquecentenario.jpg' id='pq_01' />
+  
+  <parque name="Parque Leon Feffer" info="Avenida Valentina Mello Freire Borenstein,  s/nº - Vila São Francisco" lat="-23.527806" lng="-46.22676" address='Av. Valentina Mello Freire Borenstein - Vila São Francisco, Mogi das Cruzes - São Paulo, 08735-270' img='mapa/_img/parqueleon.jpg' id='pq_02' />
+  
+  <parque name="Parque Municipal Botyra Camorin Gatti" info="Rua Olegário Paiva, s/n – Centro Cívico" lat="-23.517375" lng="-46.185676" address='R. Prof. Álvaro Pavan, 2-20 - Vila Sarah Avignon, Mogi das Cruzes - São Paulo, 08780-430' img='mapa/_img/parquebotyra.jpg' id='pq_03' />
+</parques>

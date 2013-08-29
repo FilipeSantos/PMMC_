@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alojamentos>
+  <alojamento id="01" name="EE Prof. Firmino Ladeira" info="Rua Avenida Brasil, 840 - Mogi Moderno" lat="-23.53637" lng="-46.189163" address='' />
+  <alojamento id="02" name="EE Prof. Ilson Gomes" info="Rua Isolina Bonise, 111 - Jardim Camila" lat="-23.54895" lng="-46.194565" address='' />
+  <alojamento id="03" name="EE Leonor de Oliveira Mello" info="Rua Joaquina Maria de Jesus, 641 - Mogilar" lat="-23.51459" lng="-46.195471" address='' />
+</alojamentos>

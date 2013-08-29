@@ -1,0 +1,15 @@
+	
+	.tTip {width: 313px; position: absolute; cursor: pointer; color: #666; font-weight: bold;}
+	.tip {color: #333;}
+	
+.tip {
+	width: 313px;
+	padding-top: 11px;
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	z-index: 500;
+	background: transparent url(../_img/tooltip/tipTop.png) no-repeat left top;}
+	
+.tipMid {background: transparent url(../_img/tooltip/tipMid.png) repeat-y left top; width:263px; height:143px; padding: 0 25px 0px 25px;}
+.tipBtm {background: transparent url(../_img/tooltip/tipBtm.png) no-repeat left top; height: 25px;}

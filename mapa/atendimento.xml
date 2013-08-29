@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atendimentos>
+  <atendimento name="UBS Vila Suíssa" info="Avenida Ricieri José Marcatto, 310 – Vila Suíssa. Tel.: 4761-6678" lat="-23.502857" lng="-46.159997" address='Av. Ricieri José Marcatto, 310 - Vila Suíssa, Mogi das Cruzes - São Paulo, 08810-020' />
+  <atendimento name="UBS Jardim Universo" info="Rua Dom Luís de Souza, 136 – Jardim Universo. Tel.: 4727-3464" lat="-23.547223" lng="-46.207126" address='R. Dom Luiz de Souza, 136 - Jardim Universo, Mogi das Cruzes - São Paulo, 08740-570' />
+  <atendimento name="UBS Jundiapeba" info="Rua Vereador Nito Sona, 1.745 - Jundiapeba - Mogi das Cruzes. Tel.: 4727-3217" lat="-23.547568" lng="-46.255786" address='R. Nito Sona, 1736 - Jundiapeba
+Mogi das Cruzes - São Paulo, 08750-640' />
+</atendimentos>

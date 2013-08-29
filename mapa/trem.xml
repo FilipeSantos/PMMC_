@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trens>
+  <trem name="Estação Estudantes" info="Avenida Professor Álvaro Pavan – Centro Cívico. Tel.: 0800 055 0121 (CPTM)" lat="-23.516162" lng="-46.185399" address='R. Prof. Álvaro Pavan, 20 - Vila Sarah Avignon, Mogi das Cruzes - São Paulo, 08780-430' img='mapa/_img/estacaoestudantes.jpg' />
+  
+  <trem name="Estação Mogi das Cruzes" info="Praça Sacadura Cabral – Centro. Tel.: 0800 055 0121 (CPTM)" lat="-23.52148" lng="-46.196856" address='Praça Sacadura Cabral - Centro, Mogi das Cruzes - São Paulo, 08710-450' img='mapa/_img/estacaomogi.jpg' />
+  
+  <trem name="Estação Braz Cubas" info="Avenida Anchieta – Braz Cubas. Tel.: 0800 055 0121 (CPTM)" lat="-23.538088" lng="-46.230589" address='Av. Anchieta, 901-1017 - Vila Paulista da Estação, Mogi das Cruzes - São Paulo, 08740-080' img='mapa/_img/estacaobrazcubas.jpg' />
+  
+  <trem name="Estação Jundiapeba" info="Avenida Áurea Martins dos Anjos - Jundiapeba. Tel.: 0800 055 0121 (CPTM)" lat="-23.54286" lng="-46.258499" address='Av. Áurea Martins dos Anjos, 1628-1732 - Jundiapeba Mogi das Cruzes - São Paulo, 08750-530' img='mapa/_img/estacaojundiapeba.jpg' />
+</trens>

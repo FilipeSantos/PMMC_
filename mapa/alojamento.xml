@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alojamentos>
+  <alojamento id="01" name="EE Prof. Firmino Ladeira" info="Rua Avenida Brasil, 840 - Mogi Moderno" lat="-23.53637" lng="-46.189163" address='' />
+  <alojamento id="02" name="EE Prof. Ilson Gomes" info="Rua Isolina Bonise, 111 - Jardim Camila" lat="-23.54895" lng="-46.194565" address='' />
+  <alojamento id="03" name="EE Leonor de Oliveira Mello" info="Rua Joaquina Maria de Jesus, 641 - Mogilar" lat="-23.51459" lng="-46.195471" address='' />
+  <alojamento id="04" name="EE Profª Vania Aparecida Cassará" info="Rua João de Souza Franco, 350 - Jundiapeba" lat="-23.547632" lng="-46.246192" address='' />
+  <alojamento id="05" name="Cempre Dra Ruth Cardoso" info="Travessa Dois, 28 - Jardim Layr" lat="-23.564321" lng="-46.219225" address='' />
+  <alojamento id="06" name="EE Vereador Alcides Celestino Filho" info="Rua Benedito de Oliveira, s/n - Jardim Bela Vista" lat="-23.506513" lng="-46.145132" address='' />
+  <alojamento id="07" name="EE Historiador Isaac Grinberg" info="Rua Fernando Namura, 120 - Jardim Santa Tereza" lat="-23.553774" lng="-46.218452" address='' />
+  <alojamento id="08" name="EE Irene Caporali de Souza" info="Rua Dr. Jair Rocha Batalha, s/n - Caputera" lat="-23.546766" lng="-46.184227" address='' />
+  <alojamento id="09" name="EM Vereadora Astréa Barral Nébias" info="Rua Profª Lucinda Bastos, 1.051 - Jundiapeba" lat="-23.549737" lng="-46.249394" address='' />
+  <alojamento id="10" name="EE Laurinda Cardoso de Mello Freire" info="Rua Felipe Camarão, 221 - Jardim Universo" lat="-23.548173" lng="-46.208775" address='' />
+  <alojamento id="11" name="EM Monteiro Lobato" info="Rua Abel José da Silva, 305 - Ponte Grande" lat="-23.512242" lng="-46.207619" address='' />
+  <alojamento id="12" name="EM Profª Guiomar Pinheiro Franco" info="Rua Maria Giacco Ramos, 199 - Jd São Pedro" lat="-23.512406" lng="-46.145625" address='' />
+  <alojamento id="13" name="EE Sentaro Takaoka" info="Rodovia Mogi-Salesópolis, km 8 - Cocuera" lat="-23.552328" lng="-46.148661" address='' />
+  <alojamento id="14" name="EM Milton Cruz" info="Rua Antenor de Souza Mello, 116 - Jardim Maricá" lat="-23.498564" lng="-46.180344" address='' />
+  <alojamento id="15" name="EE Francisco Ferreira Lopes" info="Rua Dr. Deodato Wertheimer, 426 - Mogilar" lat="-23.514615" lng="-46.196174" address='' />
+  <alojamento id="16" name="EM Dr. Álvaro de Campos Carneiro" info="Rua Pedro Paulo dos Santos, 855 - Nova Jundiapeba" lat="-23.551261" lng="-46.246798" address='' />
+  <alojamento id="17" name="EM Benedito Ferreira Lopes - CAIC" info="Rua Profª Alice T. Cotrim G. Silva, 22 - Vila Lavínia" lat="-23.540993" lng="-46.209537" address='' />
+  <alojamento id="18" name="EE Profª Dora Peretti de Oliveira" info="Rua Libero Badaró, 8 - Jardim Cintia" lat="-23.515397" lng="-46.143361" address='' />
+  <alojamento id="19" name="EM Benedito Laporte Vieira da Motta" info="Avenida Alfredo Crestana, 431 - Jundiapeba" lat="-23.546884" lng="-46.247412" address='' />
+  <alojamento id="20" name="EM Iracema Brasil de Siqueira" info="Avenida Ricieri José Marcatto, 686 - Vila Suissa" lat="-23.503877" lng="-46.156654" address='' />
+  <alojamento id="21" name="EE Galdino Pinheiro Franco" info="Rua Schwartzmann, s/n - Braz Cubas" lat="-23.542291" lng="-46.222658" address='' />
+  <alojamento id="22" name="EE Prof. Camilo Faustino de Melo" info="Rua Elisa Dasambiagio, 55 - Socorro" lat="-23.52252" lng="-46.170902" address='' />
+  <alojamento id="23" name="EE Cid Boucault" info="Rua Profª Lucinda Bastos, 1.250 - Jundiapeba" lat="-23.549702" lng="-46.250011" address='' />
+  <alojamento id="24" name="EE. Pedro Malozze" info="Avenida Maria Osório do Valle, 650 - Alto do Ipiranga" lat="-23.53364" lng="-46.202847" address='' />
+  <alojamento id="25" name="EE Prof. Cláudio Abrahão" info="Rua Dr. João Antonio Rodrigues de Morais, 100 - Vila Jundiaí" lat="-23.543304" lng="-46.233612" address='' />
+  <alojamento id="26" name="EM Des. Armindo Freire Mármora" info="Rua Aloísio Azevedo, 109 - Jardim das Bandeiras" lat="-23.521408" lng="-46.145378" address='' />
+  <alojamento id="27" name="EM Prof. Adolfo Martini" info="Rua Profª Ana Maria Bernardes, 280 - Vila Industrial" lat="-23.518112" lng="-46.207423" address='' />
+</alojamentos>

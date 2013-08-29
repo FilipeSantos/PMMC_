@@ -1,0 +1,294 @@
+<?php
+	date_default_timezone_set('America/Sao_Paulo');
+	
+	
+	$dataAtual = time();
+	$dataSorteioIni = mktime(11, 0, 0, 10, 22, 2011);
+	$dataSorteioFim = mktime(13, 40, 0, 10, 22, 2011);
+	
+	
+	$preSorteio = ($dataAtual < $dataSorteioIni);
+	$sorteio = ($dataAtual >= $dataSorteioIni && $dataAtual < $dataSorteioFim);
+	$sorteioFim = ($dataAtual >= $dataSorteioFim);
+
+	//$verificaParam = isset($_GET['sorteio']) ? TRUE : FALSE;
+	//$verificaSorteio = $verificaSorteio || $verificaParam;
+	
+	if($dataAtual >= $preSorteio){
+		require_once($_SERVER['DOCUMENT_ROOT'] . '/_inc/SorteioTecnico.class.php');
+
+		$sorteio = new SorteioTecnico(FALSE);
+		$divPrimeira = $sorteio->GetDivisao('primeira');
+		$divSegunda = $sorteio->GetDivisao('segunda');
+		$divEspecial = $sorteio->GetDivisao('especial');
+		$files = $sorteio->GetLoadedFiles();
+		$finalSorteio = count($files) >= 138;
+	}
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Dúvidas sobre os Jogos Abertos do Interior 2011. Envie críticas e sugestões à organização do evento." />
+<meta name="keywords" content="Mogi, sorteio, técnico, Jogos, Abertos, sugestões, Mogi, Cruzes, competição, cidades, linha." />
+<meta name="robots" content="index,follow" />
+<meta http-equiv="content-language" content="pt-br" />
+<meta name="author" content="Tboom Interactive"  />
+<title>Sorteio Técnico | Jogos Abertos do Interior 2011</title>
+<link rel="SHORTCUT ICON" href="/_img/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/_css/reset.css">
+<link rel="stylesheet" type="text/css" href="/_css/style.css">
+<link rel="stylesheet" type="text/css" href="/_css/style_2.css">
+<link rel="stylesheet" type="text/css" href="/_css/jquery.countdown.css">
+<link rel="canonical" href="http://www.jogosabertos2011.com.br<?php echo $_SERVER['REQUEST_URI']; ?>" />
+<script type="text/javascript" src="/_js/jquery.js"></script>
+<script type="text/javascript" src="/_js/jquery.jparallax.js"></script>
+<script type="text/javascript" src="/_js/jquery.countdown.js"></script>
+<script type="text/javascript" src="/_js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="/_js/jquery.jscrollpane.js"></script>
+<script type="text/javascript" src="/_js/jquery.color.js"></script>
+<script type="text/javascript" src="/_js/functions.js"></script>
+</head>
+
+<body id="sorteio-tecnico">
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/_inc/bg.php'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/_inc/header.php') ?>
+    <div class="content" id="content">
+    	<?php include($_SERVER['DOCUMENT_ROOT'] . '/_inc/navbar.php') ?>
+        <h1 class="title red">
+        	<div class="sombra" style="margin:-4px 0 0 -24px; height:65px;"></div> 
+        	Sorteio Técnico
+        </h1>
+        <br clear="all" />
+        
+	<?php if($preSorteio) : ?>
+		
+		<div id="content_sorteio">
+			<div id="content_sorteio">
+				<h2 id="sorteio_sub">ÚLTIMOS PREPARATIVOS</h2>
+				<div id="box_sorteio">
+					<h3>SÁBADO, 22/10<br> A PARTIR DAS <span>11H</span></h3>
+					<h4>ACOMPANHE O SORTEIO AQUI, <span>EM TEMPO REAL</span></h4>
+				</div>
+				<img src="/_img/sorteio-silhuetas.png" alt="" class="silhueta" />
+			</div>
+		</div>
+	
+	<?php else : ?>
+		
+		<div id="content_sorteio">
+			
+				<?php if($sorteioFim === FALSE) : ?>
+					<div class="imgLoad"><img src="/_img/load.gif" alt="Atualizado Automaticamente" /></div>
+					<h3 id="infoReload">ATUALIZADO AUTOMATICAMENTE</h3>
+					<br clear="all" />
+				<?php endif; ?>
+				<div id="boxUpdate">
+					<h3 id="ultimosSorteios"><?php echo $sorteioFim ? 'Sorteios Realizados' : 'Últimos Sorteios Realizados'; ?></h3>
+					<div id="listUpdates">
+						<?php if(is_array($files) && !empty($files)) : ?>
+							<div id="listUpdatesScroll">
+								<ul>
+									<?php foreach($files as $key=>$file) : ?>
+										<li rel="<?php echo $file['timestamp']; ?>">
+											<div class="img"><div class="imgInner imgMod<?php echo $file['id_modalidade']; ?>"><?php echo $file['modalidade']; ?></div></div>
+											<div class="txt">
+												<span class="hora"><?php echo $file['hora']; ?></span>
+												<span class="info">
+													<?php echo $file['modalidade'] . ' - ' . $file['divisao'] . ' - ' .
+														$file['sexo'] . ' - ' . $file['idade'];
+													?>
+												</span>
+											</div>
+											<a class="linkPdf" href="/upload/sorteio_tecnico/<?php echo $key; ?>.PDF" target="_blank">Visualizar PDF</a>
+											<br clear="all" />
+										</li>
+									<?php endforeach; ?>
+								</ul>
+							</div>
+						<?php else : ?>
+							<p class="atualizaSorteioPrev">Nenhum sorteio realizado. Aguarde...</p>							
+						<?php endif; ?>
+					</div>
+				</div>
+				
+			<p class="first">Aqui, você acompanha o sorteio técnico das chaves dos Jogos Abertos em tempo real e fica sabendo,antes de<br />todo mundo, quais serão as principaisdisputas da competição. Clique na categoria do seu esporte favorito e confira.</p>
+			<ul id="listTab">
+			    <li><a href="#box1a">1ª Divisão</a></li>
+			    <li><a href="#box2a">2ª Divisão</a></li>
+			    <li><a href="#box3a">Divisão Especial</a></li>
+			</ul>
+		      
+			
+			<div id="containerTab">
+				<div class="tab" id="box1a">
+					<div class="info">&nbsp;</div>
+					<?php if($divPrimeira !== FALSE) :
+						$tltPrev = '';
+						$sexoPrev = '';
+						
+						foreach($divPrimeira as $i=>$item) :
+					?>
+							<?php if($item->titulo != $tltPrev) : $tltPrev = $item->titulo; $sexoPrev = ''; ?>
+								<?php if($i) : ?>
+									</div>
+								</div>
+								<?php endif; ?>
+								<div class="item">
+									<div class="img"><div class="imgInner imgMod<?php echo $item->id; ?>"><?php echo $item->titulo; ?></div></div>
+									<h3><?php echo $item->titulo; ?></h3>
+							<?php endif; ?>						
+							
+								<?php if($item->sexo != $sexoPrev) :
+									if(!empty($sexoPrev)) : ?>
+										</div>
+									<?php
+										endif;
+										$sexoPrev = $item->sexo;
+									?>
+									
+									<span class="lblSexo"><?php echo ($item->sexo == 1) ? 'Masculino' : (($item->sexo == 2) ? 'Feminino' : 'Misto'); ?>:</span>
+									<div class="contLinks">
+								<?php endif;
+									if($item->idade == 0){
+										$idade = 'Livre';
+									} else {
+										$idade = 'Até ' . $item->idade . ' anos';
+									}
+								?>
+								
+								<?php if($sorteio->HasFile($item->sigla_pdf)) : ?>
+									<a id="<?php echo $item->sigla_pdf; ?>" href="/upload/sorteio_tecnico/<?php echo $item->sigla_pdf; ?>.PDF" target="_blank" title="Clique para baixar o PDF desse sorteio técnico"><?php echo $idade; ?></a>
+								<?php else : ?>
+									<span id="<?php echo $item->sigla_pdf; ?>" class="linkDisabled" title="Esse sorteio técnico ainda não foi realizado"><?php echo $idade; ?></span>
+								<?php endif; ?>
+					<?php endforeach; ?>
+							</div>
+						</div>
+					<?php endif; ?>
+				</div>
+				<div class="tab" id="box2a">
+					<div class="info">&nbsp;</div>
+					<?php if($divSegunda !== FALSE) :
+						$tltPrev = '';
+						$sexoPrev = '';
+						
+						foreach($divSegunda as $i=>$item) :
+					?>
+							<?php if($item->titulo != $tltPrev) : $tltPrev = $item->titulo; $sexoPrev = ''; ?>
+								<?php if($i) : ?>
+									</div>
+								</div>
+								<?php endif; ?>
+								<div class="item">
+									<div class="img"><div class="imgInner imgMod<?php echo $item->id; ?>"><?php echo $item->titulo; ?></div></div>
+									<h3><?php echo $item->titulo; ?></h3>
+							<?php endif; ?>						
+							
+								<?php if($item->sexo != $sexoPrev) :
+									if(!empty($sexoPrev)) : ?>
+										</div>
+									<?php
+										endif;
+										$sexoPrev = $item->sexo;
+									?>
+									
+									<span class="lblSexo"><?php echo ($item->sexo == 1) ? 'Masculino' : (($item->sexo == 2) ? 'Feminino' : 'Misto'); ?>:</span>
+									<div class="contLinks">
+								<?php endif;
+									if($item->idade == 0){
+										$idade = 'Livre';
+									} else {
+										$idade = 'Até ' . $item->idade . ' anos';
+									}
+								?>
+								
+								<?php if($sorteio->HasFile($item->sigla_pdf)) : ?>
+									<a id="<?php echo $item->sigla_pdf; ?>" href="/upload/sorteio_tecnico/<?php echo $item->sigla_pdf; ?>.PDF" target="_blank" title="Clique para baixar o PDF desse sorteio técnico"><?php echo $idade; ?></a>
+								<?php else : ?>
+									<span id="<?php echo $item->sigla_pdf; ?>" class="linkDisabled" target="_blank" title="Esse sorteio técnico ainda não foi realizado"><?php echo $idade; ?></span>
+								<?php endif; ?>
+					<?php endforeach; ?>
+							</div>
+						</div>
+					<?php endif; ?>
+				</div>
+				<div class="tab" id="box3a">
+					<div class="info">&nbsp;</div>
+					<?php if($divEspecial !== FALSE) :
+						$tltPrev = '';
+						$sexoPrev = '';
+						
+						foreach($divEspecial as $i=>$item) :
+					?>
+							<?php if($item->titulo != $tltPrev) : $tltPrev = $item->titulo; $sexoPrev = ''; ?>
+								<?php if($i) : ?>
+									</div>
+								</div>
+								<?php endif; ?>
+								<div class="item">
+									<div class="img"><div class="imgInner imgMod<?php echo $item->id; ?>"><?php echo $item->titulo; ?></div></div>
+									<h3><?php echo $item->titulo; ?></h3>
+							<?php endif; ?>						
+							
+								<?php if($item->sexo != $sexoPrev) :
+									if(!empty($sexoPrev)) : ?>
+										</div>
+									<?php
+										endif;
+										$sexoPrev = $item->sexo;
+									?>
+									
+									<span class="lblSexo"><?php echo ($item->sexo == 1) ? 'Masculino' : (($item->sexo == 2) ? 'Feminino' : 'Misto'); ?>:</span>
+									<div class="contLinks">
+								<?php endif;
+									if($item->idade == 0){
+										$idade = 'Livre';
+									} else {
+										$idade = 'Até ' . $item->idade . ' anos';
+									}
+								?>
+								
+								<?php if($sorteio->HasFile($item->sigla_pdf)) : ?>
+									<a id="<?php echo $item->sigla_pdf; ?>" href="/upload/sorteio_tecnico/<?php echo $item->sigla_pdf; ?>.PDF" target="_blank" title="Clique para baixar o PDF desse sorteio técnico"><?php echo $idade; ?></a>
+								<?php else : ?>
+									<span id="<?php echo $item->sigla_pdf; ?>" class="linkDisabled" target="_blank" title="Esse sorteio técnico ainda não foi realizado"><?php echo $idade; ?></span>
+								<?php endif; ?>
+					<?php endforeach; ?>
+							</div>
+						</div>
+					<?php endif; ?>
+				</div>
+			</div>
+	        </div>
+		
+	<?php endif; ?>
+	<div class="veja_tambem">
+    	<h3>Veja Também</h3>
+    	<div class="item">
+        	<h4><a href="/jogos/historia-dos-jogos">história dos jogos</a></h4>
+            <div class="imagem">
+            	<a href="/jogos/historia-dos-jogos"><img src="/_img/ft_vejatambem1.jpg" width="210" height="84" alt="Imagem 1" /></a>
+            </div>
+            <p><a href="/jogos/historia-dos-jogos">De 1936 a 2011, os fatos mais marcantes dos tradicionais Jogos Abertos.</a></p>
+        </div>
+    	<div class="item">
+        	<h4><a href="/cidade/cidade-sede">Cidade-sede</a></h4>
+            <div class="imagem">
+            	<a href="/cidade/cidade-sede"><img src="/_img/ft_vejatambem2.jpg" width="210" height="84" alt="Imagem 1" /></a>
+            </div>
+            <p><a href="/cidade/cidade-sede">Saiba por que Mogi das Cruzes foi eleita a casa dos Jogos Abertos deste ano.</a></p>
+        </div>
+    	<div class="item">
+        	<h4><a href="/modalidades">modalidades</a></h4>
+            <div class="imagem">
+            	<a href="/modalidades"><img src="/_img/ft_vejatambem3.jpg" width="210" height="84" alt="Imagem 1" /></a>
+            </div>
+            <p><a href="/modalidades">27 modalidades vão esquentar as disputas dos Jogos Abertos de 2011. Clique e conheça.</a></p>
+        </div>
+    </div>   
+
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/_inc/footer.php'); ?>
+    </div>
+</body>
+</html>

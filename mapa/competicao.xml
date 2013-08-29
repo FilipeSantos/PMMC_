@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<competicoes>
+  <competicao name="ADC EMPREITEIRA VIDAL" info="Avenida Ricieri José Marcatto, 570 – Cezar de Sousa. Tel.: 4761-7223 - Modalidades: Capoeira,Futebol, Luta Olímpica, Vôlei, Karate Kyoku-shin" lat="-23.5034443" lng="-46.15757359999998" address='Av. Ricieri José Marcatto, 570 - Vila Suíssa, Mogi das Cruzes - São Paulo, 08810-020, Brasil' categoria='capoeira,futebol,lutaolimpica,volei,karatekyokushin' img='../../mapa/_img/adc.jpg' />
+  
+  <!--<competicao name="ASSOCIAÇÃO DOS SERVIDORES MUNICIPAIS DE MOGI DAS CRUZES" info="Avenida João XXIII, 500 – Socorro Modalidade: Damas" lat="-23.5135592" lng="-46.164073900000005" address='Av. João XXIII, 500, Mogi das Cruzes - São Paulo, 08780-830, Brasil - Modalidade: Damas' categoria='damas' img='../mapa/_img/associacaodosservidores.jpg' />-->
+  
+  <competicao name="ASSOCIAÇÃO DOS AGRICULTORES DE COCUERA" info="Rod. Prof. Alfredo Rolim de Moura, km 9,5 – Cocuera. Tel.: 4792-2008 - Modalidade: Futsal e Vôlei" lat="-23.560447" lng="-46.142857" address='Rod. Prof. Alfredo Rolim de Moura, km 9,5 – Cocuera,l Mogi das Cruzes' categoria='futsal,volei' img='../mapa/_img/associacaodosagricultores.jpg' />
+  
+  <competicao name="CIRCUITO DE RUA" info="Avenida Francisco Rodrigues Filho, Mogi das Cruzes - Modalidade: Ciclismo" lat="-23.511344" lng="-46.179099" address='Avenida Francisco Rodrigues Filho, Mogi das Cruzes - São Paulo, 08775-420' categoria='ciclismo' img='../mapa/_img/circuitoderua.jpg' />
+  
+  <competicao name="COLÉGIO BRASILIS" info="Rua José Colela, 211 – Alto do Ipiranga. Tel.: 4724-9789 - Modalidades: Basquete, Ginástica Rítmica e Vôlei" lat="-23.5366123" lng="-46.20536979999997" address='R. José Colela, 211 - Alto Ipiranga, Mogi das Cruzes - São Paulo, 08730-430, Brasil' categoria='basquete,ginasticaritmica,volei' img='../mapa/_img/colegiobrasilis.jpg' />
+  
+  <competicao name="CENTRO ESPORTIVO DR LUIZ BERALDO DE MIRANDA - PLACIDINA" info="Rua Itaquaquecetuba, 131 – Vila Cléo - Modalidades: Futsal e Handebol" lat="-23.5454099" lng="-46.205232300000034" address='R. Itaquaquecetuba, 131 - Alto Ipiranga, Mogi das Cruzes - São Paulo, 08737-300, Brasil' categoria='futsal,handebol' img='../mapa/_img/centroesportivodrluiz.jpg' />
+  
+  <competicao name="CENTRO ESPORTIVO JOANA D'ARC" info="Avenida Presidente Castello Branco, 2.001 – Rio Acima. Tel.: 4796-8885 - Modalidades: Futebol" lat="-23.528106" lng="-46.14922" address='Av. Pres. Castelo Branco, 2001 - Cezar de Souza, Mogi das Cruzes - São Paulo, 08820-460' categoria='futebol' img='../mapa/_img/centroesportivojoana.jpg' />
+  
+  <!--<competicao name="COLÉGIO NEC " info="-23.524447" lat="-46.173365" lng="Rua Maurício Scwartzmann, 46 – Vila Oliveira. Tel.: 4796-5500  - Modalidades: Bocha Adaptada e Vôlei" address='R. Maurício Schwartzmann, 46 - Vila Oliveira, Mogi das Cruzes - São Paulo, 08790-470' categoria='bochaadaptada,volei' img='../mapa/_img/colegionec.jpg' />-->
+  
+  <competicao name="COLÉGIO SÃO MARCOS" info="Rua José Urbano Sanches, 305 – Parque Monte Líbano. Tel.: 3996-8716 - Modalidades: Basquete, Vôlei" lat="-23.520226" lng="-46.177743" address='R. José Urbano Sanches, 305 - Parque Monte Líbano, Mogi das Cruzes - São Paulo, 08780-220' categoria='basquete,volei' img='../mapa/_img/colegisaomarcos.jpg' />
+  
+  <competicao name="CLUBE DE CAMPO" info="Rua Duarte de Freitas, 133 – Parque Monte Líbano. Tel.: 4728-5600 - Modalidades: Basquete, Biribol, Bocha, Vôlei e Xadrez" lat="-23.519691" lng="-46.181082" address='R. Duarte de Freitas, 161-227 - Parque Monte Líbano, Mogi das Cruzes - São Paulo, 08780-240' categoria='basquete,biribol,bocha,volei,xadrez' img='../mapa/_img/clubecampo.jpg' />
+  
+  <competicao name="CLUBE COMERCIAL" info="Avenida Francisco Rodrigues Filho, 1.200 – Mogilar. Tel.: 4791-2658 - Modalidade: Futebol" lat="-23.514762" lng="-46.185519" address='Av. Francisco Rodrigues Filho, 1200 - Vila Mogilar, Mogi das Cruzes - São Paulo, 08773-380' categoria='futebol' img='../mapa/_img/clubecomercial.jpg' />
+  
+  <competicao name="CLUBE NÁUTICO MOGIANO" info="Rua Cabo Diogo Oliver, 758 - Ponte Grande. Tel.: 4791-7100 - Modalidades: Damas, Judô, Karatê, Luta Olímpica e Taekwondo" lat="-23.516106" lng="-46.202145" address='Rod. Prof. Alfredo Rolim de Moura, 738-1074 - Vila Áurea Maria, Mogi das Cruzes - São Paulo, 08773-000' categoria='damas,judo,karate,lutaolimpica,taekwondo' img='../mapa/_img/clubenautico.jpg' />
+  
+  <competicao name="CLUBE VILA SANTISTA" info="Avenida Dr. Edilson Consolmagno, 150 – Ponte Grande. Tel.: 4790-3654 - Modalidades: Biribol, Futebol de Campo, Futsal, Vôlei, Boxe e Kickboxing" lat="-23.508471" lng="-46.20532" address='Av. Dr. Edison Consolmagno, 150 - Parque Ponte Grande, Mogi das Cruzes - São Paulo, 08775-750' categoria='biribol,futebol,futsal,volei,boxe,kickboxing' img='../mapa/_img/clubevilasantista.jpg' />
+  
+  <competicao name="CER DO SOCORRO" info="Rua Rogério Tácola, 118 – Socorro. Tel.: 4726-7923 - Modalidade: Futebol" lat="-23.516122" lng="-46.176097" address='R. Rogério Tácola, 88-338 - Centro Cívico, Mogi das Cruzes - São Paulo, 08780-720' categoria='futebol'  />
+  
+  <competicao name="CER BRAZ CUBAS" info="Rua Schwartzmann, 760 – Braz Cubas. Tel.: 4791-8066 - Modalidade: Futebol" lat="-23.542895" lng="-46.221975" address='R. Schwartzmann, 760 - Vila Brás Cubas, Mogi das Cruzes - São Paulo, 08740-010' categoria='futebol' img='../mapa/_img/cerbrazcubas.jpg' />
+  
+  <competicao name="CER SABAÚNA" info="Rua José Paniagua Sanches, 19 – Sabaúna. Tel.: 4792-9149 - Modalidade: Futebol" lat="-23.479826" lng="-46.090642" address='R. José Paniágua Sanches, 19 - Sabaúna, Mogi das Cruzes - São Paulo, 08850-360' categoria='futebol' img='../mapa/_img/cersabauna.jpg' />
+  
+  <competicao name="CER BIRITIBA USSÚ" info="Rodovia Mogi-Bertioga, 20.001 – Biritiba Ussú. Tel.: 4792-1701 - Modalidade: Futebol" lat="-23.659449" lng="-46.111767" address='Rod. Dom Paulo Rolim Loureiro, 20.001 - Biritiba Ussú, Mogi das Cruzes - São Paulo' categoria='futebol'  />
+  
+  <!--<competicao name="CER TAIAÇUPEBA" info="Rua Ângelo Benedito de Moura, 135 – Taiaçupeba. Tel.: 4724-0807 - Modalidade: Futebol" lat="-23.677955" lng="-46.182168" address='Rod. Prefeito Francisco Ribeiro Nogueira, 431-579 - Taiacupeba, Mogi das Cruzes - São Paulo' categoria='futebol' />-->
+  
+  <competicao name="CER JUNDIAPEBA" info="Rua Pedro Paulo dos Santos, 2.474 – Jundiapeba. Tel.: 4735-2904 - Modalidade: Futebol" lat="-23.54875" lng="-46.261348" address='R. Pedro Paulo dos Santos, 2474 - Jundiapeba, Mogi das Cruzes - São Paulo, 08750-710' categoria='futebol' img='../mapa/_img/cerjundiapeba.jpg' />
+  
+  <competicao name='ESTÁDIO MUNICIPAL PREFEITO FRANCISCO RIBEIRO NOGUEIRA "NOGUEIRÃO"' info="Rua Ana Maria Bernardes, s/n –  Vila Industrial. Tel.: 4699-2969 - Modalidade: Futebol" lat="-23.518496" lng="-46.206259" address='R. Profa. Ana Maria Bernardes - Vila Industrial - Mogi das Cruzes - São Paulo, 08770-220' categoria='futebol' img='../mapa/_img/estadiomunicipalnogueirao.jpg' />
+  
+  <competicao name='GINÁSIO MUNICIPAL DE ESPORTES "PROF. HUGO RAMOS"' info="Rua Professor Ismael Alves dos Santos, 560 – Mogilar. Tel.: 4798-5104 - Modalidades: Basquete, Futsal, Handebol e Vôlei" lat="-23.512525" lng="-46.186373" address='R. Prof. Ismael Alves dos Santos, 560 - Vila Mogilar - Mogi das Cruzes - São Paulo, 08773-550' categoria='basquete,handebol,futsal,volei'  />
+  
+  <competicao name="GINÁSIO CEMPRE BOTUJURU" info="Avenida Felipe Sawaya, 776 – Botujuru -  Modalidades: Futsal e Handebol" lat="-23.48513" lng="-46.135445" address='Av. Felipe Sawaya, 776 - Vila São Paulo, Mogi das Cruzes - São Paulo, 08840-030' categoria='futsal,handebol'  />
+  
+  <competicao name="GINÁSIO DA ESCOLA ÁLVAROS CARNEIRO" info="Rua Manoel Fernandes, s/nº. – Jundiapeba. Tel.: 4723-0805 - Modalidades: Futsal e Handebol" lat="-23.551704" lng="-46.246948" address='R. Manoel Fernandes - Jundiapeba, Mogi das Cruzes - São Paulo, 08750-720' categoria='futsal,handebol'  />
+  
+  <competicao name="KOSMOS CLUBE" info="Avenida Joaquim Pereira de Carvalho, 518 - Ponte Grande. Tel.: 4255-2404 - Modalidades: Tênis de Mesa" lat="-23.513823" lng="-46.214633" address='Av. Joaquim Pereira de Carvalho, Mogi das Cruzes - São Paulo, 08770-670' categoria='tenisdemesa' img='../mapa/_img/kosmosclube.jpg' />
+  
+  <competicao name="MASTER SPORTS" info="Avenida Francisco Rodrigues Filho, 3900 – Cezar de Souza. Tel.: 2312-5355 - Modalidades: Vôlei" lat="-23.502477" lng="-46.163426" address='Av. Francisco Rodrigues Filho, 3900 - Mogi das Cruzes - São Paulo, 08773-380' categoria='volei' img='../mapa/_img/mastersports.jpg' />
+  
+  <competicao name="PARQUE LEON FEFFER" info="Avenida Valentina Mello Freire Borenstein,  s/nº. - Vila São Francisco. Tel.: 4729-6356 - Modalidade: Futebol" lat="-23.530167" lng="-46.220838" address='Av. Valentina Mello Freire Borenstein - Vila São Francisco, Mogi das Cruzes - São Paulo, 08735-270' categoria='futebol' img='../mapa/_img/parqueleon.jpg' />
+  
+  <competicao name="SESI" info="Rua Valmet , 171 – Braz Cubas. Tel.: 4727-1777 - Modalidades: Basquete, Bocha, Futsal, Handebol, Natação e Vôlei" lat="-23.542108" lng="-46.216396" address='R. Valmet, 171 - Vila Pres. Wilson, Mogi das Cruzes - São Paulo, 08740-640' categoria='basquete,bocha,futsal,handebol,natacao,volei' img='../mapa/_img/sesi.jpg' />
+  
+  <competicao name="TÊNIS CLUBE" info="Estrada Cruz do Século, s/nº. – Jardim Maricá. Tel.: 4790-2601 - Modalidade: Tênis" lat="-23.507678" lng="-46.204079" address='Estr. Cruz do Século, s/n - Jardim Aracy, Mogi das Cruzes - São Paulo, 08775-020' categoria='tenis' img='../mapa/_img/tenisclube.jpg' />
+  
+  <competicao name="CENTRO ESPORTIVO DA UNIVERSIDADE DE MOGI DAS CRUZES" info="Rua Delphino Alves Gregório, s/nº. – Mogilar. Tel.: 4798-7134 - Modalidades: Ginástica Artística, Rugby e Vôlei" lat="-23.512912" lng="-46.193243" address='R. Delphino Alves Gregório - Vila Mogilar, Mogi das Cruzes - São Paulo, 08773-520' categoria='ginasticaartistica,rugby,volei' img='../mapa/_img/centroesportivo.jpg' />
+  
+  <competicao name="BUNKYO ASSOCIAÇÃO CULTURAL DE MOGI DAS CRUZES" info="Avenida Japão, 5019 - Porteira Preta. Tel.: 4791-2022 - Modalidades: Beisebol, Vôlei" lat="-23.567836" lng="-46.213778" address='Av. Japão, 5.019, Mogi das Cruzes - São Paulo, 08730-330' categoria='beisebol,volei' img='../mapa/_img/bunkyo.jpg' />
+  
+  <competicao name="CLUBE DE MALHA PAULICÉIA" info="Avenida Catarina Carrera Marcatto, 750 Vila Paulicéia - Modalidade: Malha" lat="-23.502642" lng="-46.146907" address='Rua Catarina Carrera Marcatto, 750, Mogi das Cruzes - São Paulo' categoria='malha' img='' />
+  
+  <competicao name="CLUBE DE MALHA IPIRANGA" info="R. Eng. Hanney Macari, 21 - Alto Ipiranga, Mogi das Cruzes - Modalidade: Malha" lat="-23.534498" lng="-46.199406" address='R. Eng. Hanney Macari, 21 - Alto Ipiranga, Mogi das Cruzes - São Paulo, 08730-390' categoria='malha' img='' />
+  
+  <!--<competicao name="CLUBE DE MALHA DO JARDIM RODEIO" info="Avenida Prefeito Carlos Ferreira Lopes, s/nº. Tel.: 7402-8855 – Jardim Rodeio - Modalidade: Malha" lat="-23.50602" lng="-46.192463" address='Av. Prefeito Carlos Ferreira Lopes - Jardim Rodeio, Mogi das Cruzes - São Paulo, 08773-490' categoria='malha' img='../mapa/_img/clubedemalhadorodeio.jpg' />
+  
+  <competicao name="CLUBE DE MALHA DO JARDIM SÃO PEDRO" info="Rua Manoel Sanches Grillo, 182 – Jardim São Pedro. Tel.: 8378-0509 - Modalidade: Malha" lat="-23.509521" lng="-46.147329" address='R. Manoel Sanches Grillo, 182 - Jardim São Pedro, Mogi das Cruzes - São Paulo, 08820-440' categoria='malha' img='../mapa/_img/clubedemalhadosaopedro.jpg' />-->
+  
+  <competicao name="PARQUE BOTYRA CAMORIM GATTI" info="Rua Olegário Paiva, s/nº. Tel.: 4798-5087 – Centro Cívico - Modalidade: Vôlei de Praia" lat="-23.517522" lng="-46.186051" address='R. Olegário Paiva - Centro, Mogi das Cruzes - São Paulo, 08780-040' categoria='voleidepraia' img='../mapa/_img/parquebotyra.jpg' />
+  
+  <competicao name="COMPLEXO ESPORTIVO CONSTÂNCIO VAZ GUIMARÃES - IBIRAPUERA" info="Rua Manoel da Nóbrega, 1.361 - Ibirapuera. Tel.: 3887-3500 – São Paulo - Modalidade: Atletismo" lat="-23.577945" lng="-46.656021" address='Av. Mal. Estênio Albuquerque Lima, 132-330 - Moema, São Paulo, 04005-040' categoria='atletismo' img='../mapa/_img/complexoesportivo.jpg' />
+	
+  <competicao name="CT TÊNIS" info="Rodovia Mogi-Salesópolis, km 10 - Cocuera - Modalidade: Tênis, Beach Tênis, Tenis de Mesa" lat="-23.556542" lng="-46.147862" address='Rodovia Mogi-Salesópolis, km 10 - Cocuera' categoria='tenis,beachtenis,tenisdemesa' img='' />
+	 
+  <competicao name="COLÉGIO GUTTEMBERG" info="Rua Engenheiro Eugênio Motta, 233 - Centro - Modalidade: Vôlei" lat="-23.527015" lng="-46.202027" address='Rua Engenheiro Eugênio Motta, 233 - Centro' categoria='volei' img='' />
+  
+  <competicao name="Centro Esportivo Bunkyô" info="Avenida Japão, 5019 - Modalidade: Vôlei" lat="-23.574962" lng="-46.218281" address='Av. Japão, 5019 - Mogi das Cruzes - São Paulo' categoria='volei' img='' />
+	
+	<competicao name="Avenida Cívica" info="Avenida Cívica, s/nº - Modalidades: Strongman" lat="-23.524723" lng="-46.187124" address="Avenida Cívica, s/nº - Mogi das Cruzes - São Paulo" categoria="strongman" img="" />
+</competicoes>

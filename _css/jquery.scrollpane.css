@@ -1,0 +1,121 @@
+
+.jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jScrollPaneTrack {
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background: #bcae02;
+}
+.jScrollPaneDrag {
+	position: absolute;
+	background: #e4da00;
+	cursor: pointer;
+	overflow: hidden;
+	margin:5px 0;
+}
+.jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+a.jScrollArrowUp {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	/*background-color: #666;*/
+	height: 9px;
+}
+a.jScrollArrowUp:hover {
+	/*background-color: #f60;*/
+}
+
+a.jScrollArrowDown {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	/*background-color: #666;*/
+	height: 9px;
+}
+a.jScrollArrowDown:hover {
+	/*background-color: #f60;*/
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	/*background-color: #f00;*/
+}
+
+#content_sobre .jScrollPaneTrack { background: #002e71; }
+#content_sobre .jScrollPaneDrag { background: #0e64bb; }
+
+#content_historia .jScrollPaneTrack { background: #b4b4b4; }
+#content_historia .jScrollPaneDrag { background: #d4d4d4; }
+
+#content_mod .scroll-pane { width:320px !important; height:835px; background: #e7e7e7; }
+#content_mod .jspContainer {width:320px !important; height:835px; }
+#content_mod .jspTrack { background: #d1d0d0; }
+#content_mod .jspDrag { background: #9c9ea1; }
+
+#content_mod .modProg .scroll-pane { height:550px; overflow: auto;}
+#content_mod .modProg .jspContainer { height:550px; }
+#content_mod .modProg .jspDrag { background: #0a4595; }
+
+
+.medalhas .scroll-pane { width:915px !important; height:550px}
+.medalhas .jspContainer {width:916px !important; height:550px  }
+.medalhas .jspTrack { background: #d6d6d6; }
+.medalhas .jspDrag { background: #c9252b; }
+
+.classificacao .scroll-pane { width:650px !important; height:549px; }
+.classificacao .jspContainer {width:650px !important; height:549px; }
+.classificacao .jspTrack { background: #F1F1F1; }
+.classificacao .jspDrag { background: #c9252b; }
+
+#content_participantes .scroll-pane { width:450px !important; height:675px; float: left; }
+#content_participantes .jspContainer {width:450px !important; height:675px;  }
+#content_participantes .jspTrack { background: #d1d0d0; }
+#content_participantes .jspDrag { background: #0e64bb; }
+
+#content_participantes .partQuadro .scroll-pane { width:401px !important; height:160px; float: left; }
+#content_participantes .partQuadro .jspContainer {width:401px !important; height:160px;  }
+
+
+#content_prog .scroll-pane { width:980px !important; height:580px;}
+#content_prog .jspContainer {width:980px !important; height:580px }
+#content_prog .jspTrack { background: #d6d6d6; }
+#content_prog .jspDrag { background: #c9252b; }
+
+#content_prog.content_pgeral .scroll-pane { width:947px !important; height:600px; float: left;  }
+#content_prog.content_pgeral .jspContainer {width:947px !important; height:600px  }
+#content_prog.content_pgeral .jspTrack { background: #d6d6d6; }
+#content_prog.content_pgeral .jspDrag { background: #003399; }
+
+#content_prog.content_resultados .scroll-pane { width:976px !important; height:580px;}
+#content_prog.content_resultados .jspContainer {width:976px !important; height:580px }
+#content_prog.content_resultados .jspTrack { background: #c2c0c0; }
+#content_prog.content_resultados .jspDrag { background: #c9252b; }
+
+.prograHome .scroll-pane { width:315px !important; height:487px !important;}
+.prograHome .jspContainer {width:315px !important; height:487px !important;  }
+.prograHome .jspTrack { background: #d6d6d6; }
+.prograHome .jspDrag { background: #003399; }
